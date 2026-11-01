@@ -1,11 +1,11 @@
 {
-  "versionCode": 28,
-  "versionName": "0.0.28",
-  "buildTimestamp": "2026-11-01T16:24:05Z",
-  "releaseNotes": "Bản cập nhật v0.0.28: ĐẠI TU TOÀN DIỆN BỘ GIẢI MÃ VIDEO CHO ANDROID TV & MIBOX 3 (Tích hợp Native AndroidX Media3 ExoPlayer gắn SurfaceView Hardware Overlay trực tiếp triệt tiêu 100% giật lag và 0% tải GPU Mali-450 chuẩn RapNha/PhimTV; cấu hình bộ đệm TV 120MB khởi động trong 500ms; khử nghẽn đĩa SharedPreferences; điều khiển D-Pad Remote TV nhạy bén).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.28/app-debug.apk",
-  "sha256": "5d701231271554a457cc921ff269e00aa97821fffd7f644977f6050d65331e84",
+  "versionCode": 29,
+  "versionName": "0.0.29",
+  "buildTimestamp": "2026-11-01T18:49:55Z",
+  "releaseNotes": "Bản cập nhật v0.0.29: Khôi phục 100% giao diện đẹp v0.0.21 (CloudStream UI & Episode Drawer, Aspect Ratio, Khóa màn hình), sửa lỗi triệt để nguồn Phim NguonC không kết nối được trên Android TV (Hỗ trợ GTS/Let's Encrypt Root CA trên Android 6/MiBox 3, tối ưu User-Agent & HTML fallback resolver), tích hợp tùy chọn chuyển đổi linh hoạt bộ giải mã Video (Flutter MediaKit vs Native ExoPlayer Media3).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-debug.apk",
+  "sha256": "b73d4f00389b7cb3455a154cbb4a1f3cab9bc4856c40fc9e742ef2c85779c3df",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.28/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-debug.apk"
   }
 }

@@ -1,15 +1,15 @@
 {
-  "versionCode": 28,
-  "versionName": "0.0.28",
-  "buildTimestamp": "2026-11-01T16:27:25Z",
-  "releaseNotes": "Bản phát hành v0.0.28: ĐẠI TU TOÀN DIỆN BỘ GIẢI MÃ VIDEO CHO ANDROID TV & MIBOX 3 (Tích hợp Native AndroidX Media3 ExoPlayer gắn SurfaceView Hardware Overlay trực tiếp triệt tiêu 100% giật lag và 0% tải GPU Mali-450 chuẩn RapNha/PhimTV; cấu hình bộ đệm TV 120MB khởi động trong 500ms; khử nghẽn đĩa SharedPreferences; điều khiển D-Pad Remote TV nhạy bén).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.28/app-release.apk",
-  "sha256": "bd4a35aa489c9b82aab4ab14f506420c786d7d6ce5a2221e49c63f4ad2e9e4f4",
+  "versionCode": 29,
+  "versionName": "0.0.29",
+  "buildTimestamp": "2026-11-01T18:54:15Z",
+  "releaseNotes": "Bản phát hành v0.0.29: Khôi phục 100% giao diện đẹp v0.0.21 (CloudStream UI & Episode Drawer, Aspect Ratio, Khóa màn hình), sửa lỗi triệt để nguồn Phim NguonC không kết nối được trên Android TV (Hỗ trợ GTS/Let's Encrypt Root CA trên Android 6/MiBox 3, tối ưu User-Agent & HTML fallback resolver), tích hợp tùy chọn chuyển đổi linh hoạt bộ giải mã Video (Flutter MediaKit vs Native ExoPlayer Media3).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-release.apk",
+  "sha256": "ab9be1e7c17f7ebf3cf681969c311b4c8a8e5d36047551edfa5d30282e5a080d",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.28/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.28/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.28/app-arm64-v8a-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-arm64-v8a-release.apk"
   },
-  "sha256_armeabi_v7a": "668e40796d307955db51d26f3fcea8e37e7ca46575d41650e26cb9bedd426acc",
-  "sha256_arm64": "b7aa39de0ef0637b94697e1ea347c292054c363484e86ceb6e5b1d560e43a21b"
+  "sha256_armeabi_v7a": "759931a1e090a0b12580346da2211a6f1022a007feac76bacd4dd8e0c2672eea",
+  "sha256_arm64": "462924ea6394387515fdd8bac7f9c48da3ea59756011b1ad45cdf2689a7e289f"
 }
