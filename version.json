@@ -1,0 +1,15 @@
+{
+  "versionCode": 26,
+  "versionName": "0.0.26",
+  "buildTimestamp": "2026-11-01T13:33:06Z",
+  "releaseNotes": "Bản phát hành v0.0.26: Nâng cấp lớn cho Android TV & MiBox 3 (Buffer 128MB + 120s readahead giải quyết triệt để giật yanhh3d trên MiBox 3/Android 6+, chuột ảo toàn cục bám viền vàng thời gian thực, D-Pad điều khiển video chọn các nút tính năng & phụ đề/tập phim, thumbnail xem trước thanh tiến trình Netflix, nút nổi Bỏ qua giới thiệu 85s, điều hướng Chợ Fim & Tài khoản viền vàng BrandGold, nút Tìm kiếm trên Home TV, lưới tập phim không bị cắt mép dưới).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.26/app-release.apk",
+  "sha256": "216731563dbee834fad745a2c3be726765c100960169ab199e5b47fe14ee9123",
+  "downloadUrls": {
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.26/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.26/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.26/app-arm64-v8a-release.apk"
+  },
+  "sha256_armeabi_v7a": "c08f0e812527e9cc08c226817af8aa91bd6753e104dc9388a18d825a74bad57f",
+  "sha256_arm64": "50b3b8736094e9eeadd19fabc76ed9eff2058c69490d8d1d188b4e726099c597"
+}
