@@ -4,13 +4,13 @@
   "buildTimestamp": "2026-11-03T03:11:00Z",
   "releaseNotes": "Bản cập nhật v0.0.33 (Universal Debug - Phone & TV):\n1. Màu chủ đạo triệt để: Đồng bộ màu chủ đạo đã chọn (Vàng hoàng gia #E1C074, Đỏ điện ảnh Crimson #E50914, Xanh sapphire #2563EB, Đơn sắc Obsidian) xuyên suốt toàn bộ các màn hình app (Trang chủ, Kệ Fim, Chợ Fim, Nguồn, Cài đặt, Trình phát Video, Hộp thoại Phụ đề).\n2. Khôi phục 4 nút Bottom Tab Bar: Nhà | Chợ Fim | Kệ Fim (Lịch sử xem & Yêu thích) | Nguồn.\n3. Tràn viền chế độ xoay ngang (Landscape): Nền đen full toàn màn hình không vết nối mép trái; Banner hero hiển thị tràn viền đồng bộ như phương dọc; Thanh điều hướng dọc trái trôi nổi êm ái.\n4. Đồng bộ Android TV (Chuẩn RapNha TV & Netflix): Thêm hàng thông tin Năm · Thời lượng · [HD] · Phụ đề/Thuyết minh ở Hero Banner; Huy hiệu số tập (Tập X, HD, Hoàn tất) góc trên bên trái poster; Viền focus remote D-Pad phát sáng theo tông màu chủ đạo.\n5. Sửa lỗi cập nhật OTA: Quy chuẩn version code 33, version name 0.0.33 (loại bỏ hậu tố text), chấm dứt hoàn toàn hiện tượng báo cập nhật lặp sau khi cài đặt.",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
-  "sha256": "78cc0b58ea3e7bf233ace53c16789b9a8e28665325d3b56aadaf88bdb93482b1",
+  "sha256": "1aa0644b73ae3562028e9d7d10cb40296d71658a8fba50ca8047a040ec2f4d46",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
     "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "78cc0b58ea3e7bf233ace53c16789b9a8e28665325d3b56aadaf88bdb93482b1",
-  "sha256_arm64": "78cc0b58ea3e7bf233ace53c16789b9a8e28665325d3b56aadaf88bdb93482b1"
+  "sha256_armeabi_v7a": "1aa0644b73ae3562028e9d7d10cb40296d71658a8fba50ca8047a040ec2f4d46",
+  "sha256_arm64": "1aa0644b73ae3562028e9d7d10cb40296d71658a8fba50ca8047a040ec2f4d46"
 }
