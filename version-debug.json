@@ -1,16 +1,16 @@
 {
-  "versionCode": 32,
-  "versionName": "0.0.32-debug",
-  "buildTimestamp": "2026-11-03T01:50:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.32-debug (Universal Phone & TV) - Nâng cấp toàn diện UI/UX Phim4K & Hallmark:\n1. Trang chủ: Xóa chữ Tiếp tục xem lặp lại, mũi tên mở bảng lịch sử xem đầy đủ (xóa từng mục hoặc xóa hết); Kệ 'Bạn đang quan tâm gì?' tương tác điều hướng danh mục phim động (Marvel, Bom tấn, IMDb Top 100, Châu Tinh Trì, Anime, v.v.); Chữ số Top 10 chuẩn Netflix typography (lõi obsidian #14151C viền contour bạc #8E95A5) trên cả Mobile và TV.\n2. Trang chi tiết phim: Hiệu ứng gradient chân poster nhẹ nhàng (giữ 80% ảnh trên sắc nét), logo tên phim ghim trên thanh tiêu đề khi cuộn xuống; Cụm điều khiển chuẩn ảnh: tim bên trái, con nhộng trắng Xem ngay ở giữa, 3 chấm bên phải; Nhấn 3 chấm bung ngang dãy 6 icon tính năng (Play, Tim, Phụ đề, Trình phát ngoài, Chia sẻ, Đóng); Gom tập phim theo nhóm 25 tập; Dữ liệu đạo diễn, quốc gia, diễn viên, phân loại độ tuổi động từ TMDB; Kệ 'Bạn có thể thích' chuẩn thẻ Phim4K kèm thời lượng, chất lượng, năm và điểm IMDb.\n3. Trình phát Player: Khắc phục triệt để lỗi tràn pixel PiP trên Android (ẩn HUD trong cửa sổ nổi), bảng Cài đặt Frosted Glass mờ nhung trong suốt 6 tab thanh mảnh, nút Bỏ qua giới thiệu nhỏ gọn đặt cao hơn thanh tua, huy hiệu phân loại độ tuổi Netflix xuất hiện 6s đầu phim.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-  "sha256": "d3b1de6c96014df43462abb4498982b33745284a45e27da530617d1c623367cb",
+  "versionCode": 33,
+  "versionName": "0.0.33",
+  "buildTimestamp": "2026-11-03T03:11:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.33 (Universal Debug - Phone & TV):\n1. Màu chủ đạo triệt để: Đồng bộ màu chủ đạo đã chọn (Vàng hoàng gia #E1C074, Đỏ điện ảnh Crimson #E50914, Xanh sapphire #2563EB, Đơn sắc Obsidian) xuyên suốt toàn bộ các màn hình app (Trang chủ, Kệ Fim, Chợ Fim, Nguồn, Cài đặt, Trình phát Video, Hộp thoại Phụ đề).\n2. Khôi phục 4 nút Bottom Tab Bar: Nhà | Chợ Fim | Kệ Fim (Lịch sử xem & Yêu thích) | Nguồn.\n3. Tràn viền chế độ xoay ngang (Landscape): Nền đen full toàn màn hình không vết nối mép trái; Banner hero hiển thị tràn viền đồng bộ như phương dọc; Thanh điều hướng dọc trái trôi nổi êm ái.\n4. Đồng bộ Android TV (Chuẩn RapNha TV & Netflix): Thêm hàng thông tin Năm · Thời lượng · [HD] · Phụ đề/Thuyết minh ở Hero Banner; Huy hiệu số tập (Tập X, HD, Hoàn tất) góc trên bên trái poster; Viền focus remote D-Pad phát sáng theo tông màu chủ đạo.\n5. Sửa lỗi cập nhật OTA: Quy chuẩn version code 33, version name 0.0.33 (loại bỏ hậu tố text), chấm dứt hoàn toàn hiện tượng báo cập nhật lặp sau khi cài đặt.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
+  "sha256": "78cc0b58ea3e7bf233ace53c16789b9a8e28665325d3b56aadaf88bdb93482b1",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "d3b1de6c96014df43462abb4498982b33745284a45e27da530617d1c623367cb",
-  "sha256_arm64": "d3b1de6c96014df43462abb4498982b33745284a45e27da530617d1c623367cb"
+  "sha256_armeabi_v7a": "78cc0b58ea3e7bf233ace53c16789b9a8e28665325d3b56aadaf88bdb93482b1",
+  "sha256_arm64": "78cc0b58ea3e7bf233ace53c16789b9a8e28665325d3b56aadaf88bdb93482b1"
 }
