@@ -1,16 +1,16 @@
 {
   "versionCode": 32,
   "versionName": "0.0.32-debug",
-  "buildTimestamp": "2026-11-02T16:15:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.32 (Universal Debug Phone & TV): Đại tu toàn diện UI/UX theo chuẩn Phim4K trên Mobile (Home Hero Billboard logo TMDB trong suốt, phụ đề tiếng Việt, 4 pill thông số 2026 | 96 Min | IMDb | 4K PĐ, nút xem chi tiết, 6 chấm chỉ báo, kệ Top tuần nhãn chất lượng, thanh điều hướng đáy dạng con nhộng đỏ #E50914). Giao diện chi tiết phim chuẩn 4K (Backdrop 16:9, nút Xem ngay S1E1, cụm yêu thích và tùy chọn mở rộng, bảng thông tin chi tiết, lưới tập 2 cột bo góc). Trình phát phim Player Studio chuẩn 4K (Thanh HUD tối giản kèm nhãn TV-MA thanh dọc đỏ, thanh tua đỏ thắm, cụm điều khiển 5 nút, ngăn kéo Cài đặt bên phải 6 tab: Âm thanh, Phụ đề tải online OpenSubtitles / tệp máy / chỉnh delay, Hiển thị tùy chỉnh font / cỡ / lề / căn chỉnh / màu sắc MPV thời gian thực, Tốc độ, Chung, Thông tin; ngăn kéo danh sách tập 3 cột viền đỏ kèm icon sóng equalizer ılı). Khắc phục triệt để lỗi xoay ngang/dọc điện thoại (ScrollController attached to multiple scroll views) và căn chỉnh số Top 10 trên TV.",
+  "buildTimestamp": "2026-11-02T17:45:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.32-debug (Universal Phone & TV): 1. Trang chủ chuẩn Phim4K (Hero Billboard tràn viền 1.0, logo tên phim TMDB trong suốt đa ngôn ngữ, số liệu năm/chất lượng 4K/số tập/IMDb động theo từng phim, kệ Bạn đang quan tâm gì?, nhãn chất lượng vàng hổ phách). 2. Trang chi tiết phim chuẩn Phim4K (Backdrop TMDB 1/2 màn hình sắc nét, logo thư pháp điện ảnh, nút Xem ngay S1E1 + tim + tùy chọn, avatar diễn viên thật/initials, server selector, bảng thông số phim động, kệ Bạn có thể thích). 3. Trình phát Player chuẩn Hallmark & Phim4K (Bỏ nhãn thừa 85s tại nút bỏ qua giới thiệu, bỏ nút chevron cạnh phải, ngăn kéo Cài đặt Frosted Glass mờ nhung 6 tab thanh mảnh cao cấp).",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-  "sha256": "0bc9f720996b93ab29f255b90c243c1c6f44e39e7557d8b5e3ca5f35de0db301",
+  "sha256": "764a1460fee21f5df1d5f51c77fc1247bed782f4f75ebdde3da610b8baf6a64a",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "0bc9f720996b93ab29f255b90c243c1c6f44e39e7557d8b5e3ca5f35de0db301",
-  "sha256_arm64": "0bc9f720996b93ab29f255b90c243c1c6f44e39e7557d8b5e3ca5f35de0db301"
+  "sha256_armeabi_v7a": "764a1460fee21f5df1d5f51c77fc1247bed782f4f75ebdde3da610b8baf6a64a",
+  "sha256_arm64": "764a1460fee21f5df1d5f51c77fc1247bed782f4f75ebdde3da610b8baf6a64a"
 }
