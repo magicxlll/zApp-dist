@@ -1,14 +1,14 @@
 {
-  "versionCode": 30,
-  "versionName": "0.0.30",
-  "buildTimestamp": "2026-11-02T03:16:07Z",
-  "releaseNotes": "Bản cập nhật v0.0.30 (Debug Test - Giai đoạn 1 chuẩn hoá Hybrid Flutter TV & ExoPlayer OSD): Xây dựng bộ khung điều hướng TV Spatial Navigation chuẩn Netflix & Canvas Scaler (gỡ bỏ chuột ảo, nhớ vị trí hàng focus, tối ưu RAM MiBox 3/Android 6); Nâng cấp toàn diện HUD trình phát Native ExoPlayer Media3 chuẩn RapNha/Netflix (Floating Time Pill, 68dp Center Controls, Thẻ đếm ngược chuyển tập thông minh 340dp, Resolution & Speed badges).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-debug.apk",
-  "sha256": "a66baa9c989dc1f063215e2a8de76344cfc882b16872dfdf88934faa6eb50efe",
+  "versionCode": 31,
+  "versionName": "0.0.31",
+  "buildTimestamp": "2026-11-02T03:32:28Z",
+  "releaseNotes": "Bản cập nhật v0.0.31 (Debug): Thiết kế lại toàn diện giao diện Android TV theo chuẩn Netflix/RapNha (Dynamic Spotlight Billboard tự đổi theo thẻ phim đang focus, chi tiết phim 2 cột bất đối xứng, cụm nút bấm 220dp, kệ tập phim cuộn ngang); Sửa lỗi tràn 145px khi quay ngang mobile và chuyển thanh điều hướng sang dạng cột dọc; Tự động ép xoay ngang khi vào trình phát phim.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.31/app-debug.apk",
+  "sha256": "30312d02abb71374ee65bebaaea04b021c97f95d993c46ceae995a65193be431",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-armeabi-v7a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.31/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.31/app-armeabi-v7a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.31/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "33fd77dda3703b3cf166e67e74e68e8101d17f48f0e65f8928e28f122230e41b"
+  "sha256_armeabi_v7a": "971ab275e6fa252490fa23c1b89e4a155dfd075e852959321ea7c96cc38a3f0b"
 }
