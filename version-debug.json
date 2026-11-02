@@ -1,16 +1,16 @@
 {
   "versionCode": 32,
   "versionName": "0.0.32-debug",
-  "buildTimestamp": "2026-11-02T17:45:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.32-debug (Universal Phone & TV): 1. Trang chủ chuẩn Phim4K (Hero Billboard tràn viền 1.0, logo tên phim TMDB trong suốt đa ngôn ngữ, số liệu năm/chất lượng 4K/số tập/IMDb động theo từng phim, kệ Bạn đang quan tâm gì?, nhãn chất lượng vàng hổ phách). 2. Trang chi tiết phim chuẩn Phim4K (Backdrop TMDB 1/2 màn hình sắc nét, logo thư pháp điện ảnh, nút Xem ngay S1E1 + tim + tùy chọn, avatar diễn viên thật/initials, server selector, bảng thông số phim động, kệ Bạn có thể thích). 3. Trình phát Player chuẩn Hallmark & Phim4K (Bỏ nhãn thừa 85s tại nút bỏ qua giới thiệu, bỏ nút chevron cạnh phải, ngăn kéo Cài đặt Frosted Glass mờ nhung 6 tab thanh mảnh cao cấp).",
+  "buildTimestamp": "2026-11-03T01:50:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.32-debug (Universal Phone & TV) - Nâng cấp toàn diện UI/UX Phim4K & Hallmark:\n1. Trang chủ: Xóa chữ Tiếp tục xem lặp lại, mũi tên mở bảng lịch sử xem đầy đủ (xóa từng mục hoặc xóa hết); Kệ 'Bạn đang quan tâm gì?' tương tác điều hướng danh mục phim động (Marvel, Bom tấn, IMDb Top 100, Châu Tinh Trì, Anime, v.v.); Chữ số Top 10 chuẩn Netflix typography (lõi obsidian #14151C viền contour bạc #8E95A5) trên cả Mobile và TV.\n2. Trang chi tiết phim: Hiệu ứng gradient chân poster nhẹ nhàng (giữ 80% ảnh trên sắc nét), logo tên phim ghim trên thanh tiêu đề khi cuộn xuống; Cụm điều khiển chuẩn ảnh: tim bên trái, con nhộng trắng Xem ngay ở giữa, 3 chấm bên phải; Nhấn 3 chấm bung ngang dãy 6 icon tính năng (Play, Tim, Phụ đề, Trình phát ngoài, Chia sẻ, Đóng); Gom tập phim theo nhóm 25 tập; Dữ liệu đạo diễn, quốc gia, diễn viên, phân loại độ tuổi động từ TMDB; Kệ 'Bạn có thể thích' chuẩn thẻ Phim4K kèm thời lượng, chất lượng, năm và điểm IMDb.\n3. Trình phát Player: Khắc phục triệt để lỗi tràn pixel PiP trên Android (ẩn HUD trong cửa sổ nổi), bảng Cài đặt Frosted Glass mờ nhung trong suốt 6 tab thanh mảnh, nút Bỏ qua giới thiệu nhỏ gọn đặt cao hơn thanh tua, huy hiệu phân loại độ tuổi Netflix xuất hiện 6s đầu phim.",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-  "sha256": "764a1460fee21f5df1d5f51c77fc1247bed782f4f75ebdde3da610b8baf6a64a",
+  "sha256": "d3b1de6c96014df43462abb4498982b33745284a45e27da530617d1c623367cb",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "764a1460fee21f5df1d5f51c77fc1247bed782f4f75ebdde3da610b8baf6a64a",
-  "sha256_arm64": "764a1460fee21f5df1d5f51c77fc1247bed782f4f75ebdde3da610b8baf6a64a"
+  "sha256_armeabi_v7a": "d3b1de6c96014df43462abb4498982b33745284a45e27da530617d1c623367cb",
+  "sha256_arm64": "d3b1de6c96014df43462abb4498982b33745284a45e27da530617d1c623367cb"
 }
