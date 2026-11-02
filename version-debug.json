@@ -1,14 +1,14 @@
 {
   "versionCode": 30,
   "versionName": "0.0.30",
-  "buildTimestamp": "2026-11-02T09:05:00Z",
+  "buildTimestamp": "2026-11-02T03:16:07Z",
   "releaseNotes": "Bản cập nhật v0.0.30 (Debug Test - Giai đoạn 1 chuẩn hoá Hybrid Flutter TV & ExoPlayer OSD): Xây dựng bộ khung điều hướng TV Spatial Navigation chuẩn Netflix & Canvas Scaler (gỡ bỏ chuột ảo, nhớ vị trí hàng focus, tối ưu RAM MiBox 3/Android 6); Nâng cấp toàn diện HUD trình phát Native ExoPlayer Media3 chuẩn RapNha/Netflix (Floating Time Pill, 68dp Center Controls, Thẻ đếm ngược chuyển tập thông minh 340dp, Resolution & Speed badges).",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-debug.apk",
-  "sha256": "8710a878b58ab38d32a8ce941b5681d78e38ca82dda076fd34ede7f52cd40ad9",
+  "sha256": "a66baa9c989dc1f063215e2a8de76344cfc882b16872dfdf88934faa6eb50efe",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-debug.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-armeabi-v7a-debug.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "3f05ab1f5cb7cf7f6add3eeeb21eb60628c67b8fdc113f71d30dc0ddffcc6b8c"
+  "sha256_armeabi_v7a": "33fd77dda3703b3cf166e67e74e68e8101d17f48f0e65f8928e28f122230e41b"
 }
