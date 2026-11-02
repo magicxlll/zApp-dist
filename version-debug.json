@@ -1,11 +1,14 @@
 {
-  "versionCode": 29,
-  "versionName": "0.0.29",
-  "buildTimestamp": "2026-11-01T18:49:55Z",
-  "releaseNotes": "Bản cập nhật v0.0.29: Khôi phục 100% giao diện đẹp v0.0.21 (CloudStream UI & Episode Drawer, Aspect Ratio, Khóa màn hình), sửa lỗi triệt để nguồn Phim NguonC không kết nối được trên Android TV (Hỗ trợ GTS/Let's Encrypt Root CA trên Android 6/MiBox 3, tối ưu User-Agent & HTML fallback resolver), tích hợp tùy chọn chuyển đổi linh hoạt bộ giải mã Video (Flutter MediaKit vs Native ExoPlayer Media3).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-debug.apk",
-  "sha256": "b73d4f00389b7cb3455a154cbb4a1f3cab9bc4856c40fc9e742ef2c85779c3df",
+  "versionCode": 30,
+  "versionName": "0.0.30",
+  "buildTimestamp": "2026-11-02T09:05:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.30 (Debug Test - Giai đoạn 1 chuẩn hoá Hybrid Flutter TV & ExoPlayer OSD): Xây dựng bộ khung điều hướng TV Spatial Navigation chuẩn Netflix & Canvas Scaler (gỡ bỏ chuột ảo, nhớ vị trí hàng focus, tối ưu RAM MiBox 3/Android 6); Nâng cấp toàn diện HUD trình phát Native ExoPlayer Media3 chuẩn RapNha/Netflix (Floating Time Pill, 68dp Center Controls, Thẻ đếm ngược chuyển tập thông minh 340dp, Resolution & Speed badges).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-debug.apk",
+  "sha256": "8710a878b58ab38d32a8ce941b5681d78e38ca82dda076fd34ede7f52cd40ad9",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.29/app-debug.apk"
-  }
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-armeabi-v7a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.30/app-tv-debug.apk"
+  },
+  "sha256_armeabi_v7a": "3f05ab1f5cb7cf7f6add3eeeb21eb60628c67b8fdc113f71d30dc0ddffcc6b8c"
 }
