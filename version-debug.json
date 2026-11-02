@@ -1,16 +1,16 @@
 {
   "versionCode": 32,
-  "versionName": "0.0.32-hotfix",
-  "buildTimestamp": "2026-11-02T06:48:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.32-hotfix (Universal Debug): Khắc phục triệt để lỗi xoay màn hình điện thoại (ScrollController attached to multiple scroll views), sửa lỗi thanh điều hướng landscape che mất banner; Sửa giao diện số Top 10 trên Android TV với font UVN Hồng Hà Hẹp ánh kim; Kích hoạt toàn diện bộ 3 tùy biến Design-System Archetypes (Điện ảnh tràn viền 4K/Netflix, Tối giản RapNha, Zen Fluid) và 4 bảng màu chủ đạo; Tích hợp Title Logo TMDB trong suốt, Auto-skip Intro/Outro qua TheIntroDB, Mở bằng trình phát ngoài, Thể thao ThapCamTV & TV VTV/HTV, Nguồn OPhim v3, Picture-in-Picture native.",
+  "versionName": "0.0.32-hotfix2",
+  "buildTimestamp": "2026-11-02T08:08:47Z",
+  "releaseNotes": "Bản cập nhật v0.0.32-hotfix2 (Universal Debug): Khắc phục triệt để lỗi xoay ngang/dọc điện thoại (ScrollController attached to multiple scroll views); Điều chỉnh bố cục Hero Landscape không bị cắt ảnh đầu phim và nâng chiều cao thoáng đẹp; Sửa giao diện số Top 10 Bảng Xếp Hạng trên TV chuẩn Netflix/4K không bị đè lên poster phim trước; Kích hoạt chuyển đổi tức thì giữa các bản sắc thiết kế (Điện ảnh tràn viền 4K/Netflix, Tối giản RapNha, Zen Fluid zFim) và 4 bảng màu chủ đạo (Brand Gold, Cinema Red, Sapphire Blue, Obsidian); Nâng cấp trình phát phim Player Studio 4K: Chỉnh phụ đề chuyên sâu (đổi font, màu sắc, viền chữ, nền bóng mờ, đồng bộ delay ±10s với chip nhảy nhanh), Tải phụ đề OpenSubtitles tiếng Việt trực tiếp không cần API key, Chọn tệp phụ đề máy, Mở bằng trình phát ngoài (VLC, Just Player, IINA, PotPlayer).",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
-  "sha256": "6b75ddff00c315f4969df648fb2f2a4b7340aef85696be582a34b3103108ccf4",
+  "sha256": "3911148362befdfee2f47a81025278bbe45e83b4504abdedf286b42a5df5cfe8",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "6b75ddff00c315f4969df648fb2f2a4b7340aef85696be582a34b3103108ccf4",
-  "sha256_arm64": "6b75ddff00c315f4969df648fb2f2a4b7340aef85696be582a34b3103108ccf4"
+  "sha256_armeabi_v7a": "3911148362befdfee2f47a81025278bbe45e83b4504abdedf286b42a5df5cfe8",
+  "sha256_arm64": "3911148362befdfee2f47a81025278bbe45e83b4504abdedf286b42a5df5cfe8"
 }
