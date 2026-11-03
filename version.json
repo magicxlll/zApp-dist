@@ -1,15 +1,15 @@
 {
-  "versionCode": 35,
-  "versionName": "0.0.35",
-  "buildTimestamp": "2026-11-04T00:30:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.35: Thiết kế giao diện tràn viền Hallmark; Xóa ranh giới đen giữa Hero Banner và Tiếp tục xem; Dock trượt ngang 5 chức năng tự ẩn; Lưới tập 4x3 lướt ngang và hỗ trợ đảo thứ tự tập; Nâng cấp Trình phát tối ưu bỏ qua giới thiệu, tự ẩn poster, và nút chọn Nguồn máy chủ phim.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-release.apk",
-  "sha256": "",
+  "versionCode": 36,
+  "versionName": "0.0.36",
+  "buildTimestamp": "2026-11-04T03:06:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.36: Thiết kế giao diện tràn viền Hallmark; Xóa ranh giới đen giữa Hero Banner và Tiếp tục xem; Dock trượt ngang 5 chức năng tự ẩn; Lưới tập 4x3 lướt ngang và hỗ trợ đảo thứ tự tập; Nâng cấp Trình phát tối ưu bỏ qua giới thiệu, tự ẩn poster, và nút chọn Nguồn máy chủ phim.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-release.apk",
+  "sha256": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-arm64-v8a-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "",
-  "sha256_arm64": ""
+  "sha256_armeabi_v7a": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
+  "sha256_arm64": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615"
 }
