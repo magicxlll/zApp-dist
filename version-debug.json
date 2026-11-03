@@ -1,16 +1,16 @@
 {
-  "versionCode": 35,
-  "versionName": "0.0.35",
-  "buildTimestamp": "2026-11-04T00:30:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.35 (Universal Debug - Phone & TV):\n1. Trang chủ: Xóa hoàn toàn vách ngăn/làn kẻ đen giữa Hero Banner và Tiếp tục xem; tạo hiệu ứng chuyển tiếp mờ ảo, liền mạch và hòa quyện nền giao diện ở cả chiều đứng lẫn chiều ngang.\n2. Giao diện ngang: Tái thiết kế chuẩn Hallmark - Logo zFim góc trái chạm trượt ra thanh Dock 5 chức năng (Kệ Fim, Chợ Fim, Coi Fim, Đổi Fim, Cài đặt) tự ẩn sau 10s; Tìm kiếm và Tên nguồn đưa sang góc phải với padding an toàn tránh che icon hệ thống.\n3. Chi tiết phim: Danh sách tập dạng lưới 4x3 lướt ngang linh hoạt, nhãn Tập gọn gàng, giữ kích thước nút khi đổi chiều xoay; thêm tính năng đảo thứ tự tập (Mới nhất / Xem từ đầu).\n4. Trình phát phim: Nâng cao bong bóng Bỏ qua giới thiệu tránh đè timeline, làm mờ tinh tế và tự ẩn sau 10s; bỏ icon xoay vô cực và thông báo kết nối luồng phát; sửa triệt để lỗi kẹt poster và poster hiện đè khi pause; thay nút Phụ đề thành nút Nguồn chuyển đổi server chất lượng (YanHH3D Direct 4K, 1080p, FB-V8...).\n5. Global & OTA: Đồng bộ versionCode 35, versionName 0.0.35 trên toàn hệ thống; khắc phục lỗi chữ tàng hình thông báo kiểm tra cập nhật; hiển thị dialog thông báo phiên bản mới nhất với icon động tinh tế.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-debug.apk",
-  "sha256": "852a7f1b2447330d5f56183b00173ca4b1329627994600aa4755bea2b70381dd",
+  "versionCode": 36,
+  "versionName": "0.0.36",
+  "buildTimestamp": "2026-11-04T03:06:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.36 (Universal Debug - Phone & TV):\n1. Logo & Bộ nhận diện: Đồng bộ icon zFim mới (Fill background cho launcher, Transparent logo cho giao diện ứng dụng và thanh dock/bottom bar).\n2. Trang chủ & Dock Hallmark: Góc trái logo tròn trượt mở Dock 5 mục (Kệ Fim, Chợ Fim, Coi Fim, Đổi Fim, Cài đặt) tự ẩn sau 10s; Kính lúp góc phải bung mở thanh tìm kiếm tinh tế; Xóa triệt để vách ngăn đen giữa Hero Banner và Tiếp tục xem.\n3. Chi tiết phim: Banner ngang thu gọn tinh tế (~24%), nút Xem ngay con nhộng bạch kim Satin Platinum sang trọng, lưới tập 4x3 lướt ngang linh hoạt, nút đảo thứ tự tập (Mới nhất / Xem từ đầu), sửa triệt để lỗi lặp từ 'Tập Tập'.\n4. Trình phát phim: Giao diện thiết lập 3 tab tinh gọn (Phụ Đề | Âm Thanh | Nguồn) dạng Frosted Glass trong suốt cao, khắc phục lỗi tràn chữ 5px; thêm nút xoay chiều màn hình; poster tự ẩn ngay khi bắt đầu phát; bong bóng Bỏ qua giới thiệu nâng cao và tự ẩn sau 5-10s; bỏ hoàn toàn thông báo thừa.\n5. Nền tảng sạch (Clean Platform): Hỗ trợ cờ Clean Platform Mode (app trắng) và kiểm thử kho nguồn zfim-default-sources từ GitHub.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
+  "sha256": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.35/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "852a7f1b2447330d5f56183b00173ca4b1329627994600aa4755bea2b70381dd",
-  "sha256_arm64": "852a7f1b2447330d5f56183b00173ca4b1329627994600aa4755bea2b70381dd"
+  "sha256_armeabi_v7a": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
+  "sha256_arm64": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615"
 }
