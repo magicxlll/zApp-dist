@@ -1,16 +1,16 @@
 {
-  "versionCode": 33,
-  "versionName": "0.0.33",
-  "buildTimestamp": "2026-11-03T03:11:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.33 (Universal Debug - Phone & TV):\n1. Màu chủ đạo triệt để: Đồng bộ màu chủ đạo đã chọn (Vàng hoàng gia #E1C074, Đỏ điện ảnh Crimson #E50914, Xanh sapphire #2563EB, Đơn sắc Obsidian) xuyên suốt toàn bộ các màn hình app (Trang chủ, Kệ Fim, Chợ Fim, Nguồn, Cài đặt, Trình phát Video, Hộp thoại Phụ đề).\n2. Khôi phục 4 nút Bottom Tab Bar: Nhà | Chợ Fim | Kệ Fim (Lịch sử xem & Yêu thích) | Nguồn.\n3. Tràn viền chế độ xoay ngang (Landscape): Nền đen full toàn màn hình không vết nối mép trái; Banner hero hiển thị tràn viền đồng bộ như phương dọc; Thanh điều hướng dọc trái trôi nổi êm ái.\n4. Đồng bộ Android TV (Chuẩn RapNha TV & Netflix): Thêm hàng thông tin Năm · Thời lượng · [HD] · Phụ đề/Thuyết minh ở Hero Banner; Huy hiệu số tập (Tập X, HD, Hoàn tất) góc trên bên trái poster; Viền focus remote D-Pad phát sáng theo tông màu chủ đạo.\n5. Sửa lỗi cập nhật OTA: Quy chuẩn version code 33, version name 0.0.33 (loại bỏ hậu tố text), chấm dứt hoàn toàn hiện tượng báo cập nhật lặp sau khi cài đặt.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
-  "sha256": "1aa0644b73ae3562028e9d7d10cb40296d71658a8fba50ca8047a040ec2f4d46",
+  "versionCode": 34,
+  "versionName": "0.0.34",
+  "buildTimestamp": "2026-11-03T03:32:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.34 (Universal Debug - Phone & TV):\n1. Sửa dứt điểm lỗi crash ScrollController attached to multiple scroll views (Ảnh 2) bằng kiến trúc PageController/ScrollController phân tách độc lập cho từng Archetype (Điện ảnh, Tối giản, Zen) và chế độ xoay màn hình.\n2. Sửa lỗi tràn pixel (Right Overflow 1px, Bottom Overflow 63px) ở chế độ Hình trong hình (PiP - Ảnh 8) và màn hình nhỏ bằng LayoutBuilder thích ứng, tự động co gọn thanh điều khiển.\n3. Nâng cấp Chợ Fim thành Trung tâm khám phá điện ảnh toàn cầu (API TMDb, Simkl, IMDb): Hỗ trợ danh mục phim Thịnh hành thời gian thực, bảng xếp hạng kiệt tác IMDb ≥ 8.0 với huy hiệu vàng chuẩn #F5C518, và cầu nối tìm kiếm phát trực tiếp từ các kho nguồn zFim.\n4. Trình phát video điện ảnh: Tích hợp hiệu ứng hào quang động (pulsing aura glow) logo tên phim trong suốt trên nền poster/backdrop sắc nét khi tải luồng phát; tự động mờ dần khi phim bắt đầu chạy.\n5. Sửa lỗi trùng lặp tiêu đề phim ở Hero Banner và loại bỏ lặp dòng chữ Tiếp tục xem.\n6. Chuẩn hóa quy trình OTA: version code 34, version name 0.0.34 tăng dần đồng bộ.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.34/app-debug.apk",
+  "sha256": "6f91680bf9a70d276caedf0f7cdf7fc200099109e7c03dc45f14b55222ac8e10",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.33/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.34/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.34/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.34/app-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.34/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "1aa0644b73ae3562028e9d7d10cb40296d71658a8fba50ca8047a040ec2f4d46",
-  "sha256_arm64": "1aa0644b73ae3562028e9d7d10cb40296d71658a8fba50ca8047a040ec2f4d46"
+  "sha256_armeabi_v7a": "6f91680bf9a70d276caedf0f7cdf7fc200099109e7c03dc45f14b55222ac8e10",
+  "sha256_arm64": "6f91680bf9a70d276caedf0f7cdf7fc200099109e7c03dc45f14b55222ac8e10"
 }
