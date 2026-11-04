@@ -1,15 +1,15 @@
 {
-  "versionCode": 36,
-  "versionName": "0.0.36",
-  "buildTimestamp": "2026-11-04T03:06:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.36: Thiết kế giao diện tràn viền Hallmark; Xóa ranh giới đen giữa Hero Banner và Tiếp tục xem; Dock trượt ngang 5 chức năng tự ẩn; Lưới tập 4x3 lướt ngang và hỗ trợ đảo thứ tự tập; Nâng cấp Trình phát tối ưu bỏ qua giới thiệu, tự ẩn poster, và nút chọn Nguồn máy chủ phim.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-release.apk",
-  "sha256": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
+  "versionCode": 37,
+  "versionName": "0.0.37",
+  "buildTimestamp": "2026-11-04T09:02:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.37: Khắc phục lỗi lặp tên phim khi đổi tập; Nút Tập Sau chuẩn cốt truyện; Tự ẩn điều khiển sau 5s & hỗ trợ cảm ứng nhạy trên điện thoại; Đồng bộ màu chủ đề trên Slider & Drawer; Dock ngang trượt dưới logo mượt mà; Chuyển tiếp mờ ảo không vết cắt ở trang chi tiết phim.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-release.apk",
+  "sha256": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
-  "sha256_arm64": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615"
+  "sha256_armeabi_v7a": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260",
+  "sha256_arm64": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260"
 }

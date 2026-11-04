@@ -1,16 +1,16 @@
 {
-  "versionCode": 36,
-  "versionName": "0.0.36",
-  "buildTimestamp": "2026-11-04T03:06:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.36 (Universal Debug - Phone & TV):\n1. Logo & Bộ nhận diện: Đồng bộ icon zFim mới (Fill background cho launcher, Transparent logo cho giao diện ứng dụng và thanh dock/bottom bar).\n2. Trang chủ & Dock Hallmark: Góc trái logo tròn trượt mở Dock 5 mục (Kệ Fim, Chợ Fim, Coi Fim, Đổi Fim, Cài đặt) tự ẩn sau 10s; Kính lúp góc phải bung mở thanh tìm kiếm tinh tế; Xóa triệt để vách ngăn đen giữa Hero Banner và Tiếp tục xem.\n3. Chi tiết phim: Banner ngang thu gọn tinh tế (~24%), nút Xem ngay con nhộng bạch kim Satin Platinum sang trọng, lưới tập 4x3 lướt ngang linh hoạt, nút đảo thứ tự tập (Mới nhất / Xem từ đầu), sửa triệt để lỗi lặp từ 'Tập Tập'.\n4. Trình phát phim: Giao diện thiết lập 3 tab tinh gọn (Phụ Đề | Âm Thanh | Nguồn) dạng Frosted Glass trong suốt cao, khắc phục lỗi tràn chữ 5px; thêm nút xoay chiều màn hình; poster tự ẩn ngay khi bắt đầu phát; bong bóng Bỏ qua giới thiệu nâng cao và tự ẩn sau 5-10s; bỏ hoàn toàn thông báo thừa.\n5. Nền tảng sạch (Clean Platform): Hỗ trợ cờ Clean Platform Mode (app trắng) và kiểm thử kho nguồn zfim-default-sources từ GitHub.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
-  "sha256": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
+  "versionCode": 37,
+  "versionName": "0.0.37",
+  "buildTimestamp": "2026-11-04T09:02:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.37 (Universal Debug - Phone & TV):\n1. Trang chủ Landscape: Dock dọc trượt bung xuống ngay dưới logo zFim mượt mà, không đè logo; Kính lúp nhảy trực tiếp vào tìm kiếm nền Frosted Glass có thông tin nguồn; Banner kéo sâu loại bỏ khoảng đen.\n2. Trang chủ Portrait: Logo zFim trên thanh Bottom Bar hiển thị vòng hào quang động tinh tế, không bị fill che logo.\n3. Chi tiết phim: Khắc phục triệt để lỗi 'Tập Tập', nút sort tập phim chỉ hiển thị icon tinh tế, chuyển tiếp mờ ảo mềm mại không còn vệt cắt ngang khi vuốt lên; Nhóm dải tập phim hiển thị đúng theo chiều sort (100-89).\n4. Trình phát phim: Tự động ẩn trình điều khiển sau 5s; Xử lý micro-drag tránh nuốt chạm trên màn hình cảm ứng điện thoại; Khắc phục lỗi lặp tên phim khi đổi tập; Nút Tập Sau luôn nhảy theo cốt truyện chuẩn; Đồng bộ màu chủ đề động toàn diện trên thanh tua thời gian và danh sách tập; Nút bỏ qua giới thiệu tự ẩn sau 10s và không lặp lại.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
+  "sha256": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.36/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615",
-  "sha256_arm64": "b906774f0fbb7e5786f2405307f3b05b5a518dd9410789deae9c78d71b9ea615"
+  "sha256_armeabi_v7a": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260",
+  "sha256_arm64": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260"
 }
