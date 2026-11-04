@@ -1,15 +1,15 @@
 {
-  "versionCode": 37,
-  "versionName": "0.0.37",
-  "buildTimestamp": "2026-11-04T09:02:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.37: Khắc phục lỗi lặp tên phim khi đổi tập; Nút Tập Sau chuẩn cốt truyện; Tự ẩn điều khiển sau 5s & hỗ trợ cảm ứng nhạy trên điện thoại; Đồng bộ màu chủ đề trên Slider & Drawer; Dock ngang trượt dưới logo mượt mà; Chuyển tiếp mờ ảo không vết cắt ở trang chi tiết phim.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-release.apk",
-  "sha256": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260",
+  "versionCode": 38,
+  "versionName": "0.0.38",
+  "buildTimestamp": "2026-11-04T09:55:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.38: Morphing Vertical Dock hợp nhất Logo zFim; Nút kính lúp tinh gọn; Popup tìm kiếm droplist inline đa nguồn; Chợ Fim đồng bộ nguồn với Kệ Fim và tìm kiếm đa nguồn CloudStream; Tối ưu hóa toàn diện cho máy tính bảng 10.3\".",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
+  "sha256": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.37/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk"
   },
-  "sha256_armeabi_v7a": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260",
-  "sha256_arm64": "d0b7accba5b5c09bac04f629ed69d2e11df3264deac968d3d804d5b58d300260"
+  "sha256_armeabi_v7a": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407",
+  "sha256_arm64": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407"
 }
