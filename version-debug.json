@@ -1,14 +1,14 @@
 {
-  "versionCode": 39,
-  "versionName": "0.0.39",
-  "buildTimestamp": "2026-11-04T06:28:39Z",
-  "releaseNotes": "Bản cập nhật v0.0.39: Nâng cấp toàn diện nguồn CôBe Phim (cobephim v1.2.0): Sửa triệt để lỗi poster bị kéo dãn với thuật toán nhận diện thông minh tỷ lệ 2:3 chuẩn điện ảnh; Mở rộng 17 chuyên mục catalog phân loại phong phú chuẩn NguonC; Khắc phục lỗi tải phim, giải mã luồng StreamC HLS và Direct M3U8 siêu tốc; Tối ưu hóa timeout và hiệu năng phát.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-debug.apk",
-  "sha256": "12d0e35d1340a76147f66132238ac941174a6e8840552c363e3ba3a7e2a16d9d",
+  "versionCode": 40,
+  "versionName": "0.0.40",
+  "buildTimestamp": "2026-11-04T07:12:44Z",
+  "releaseNotes": "Bản cập nhật v0.0.40: 1) Tìm kiếm Chợ Fim đa nguồn theo hàng ngang chuẩn CloudStream, phân loại nguồn rõ ràng, loại trừ IPTV/Sports khi tìm phim. 2) Khám phá điện ảnh tìm kiếm đa nguồn tự động, thông báo lịch sự khi không có nguồn phát thay vì quăng lỗi HTTP 404 đỏ màn hình. 3) Sửa triệt để lỗi tràn viền 20px Quản lý nguồn và lỗi chạm màn hình video player. 4) Tích hợp tính năng Báo lỗi & Chuẩn đoán thiết bị (DPI, resolution, logs) hỗ trợ sao chép 1-click hoặc gửi GitHub Issues.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-debug.apk",
+  "sha256": "6d5e8c3094220ae4c6aed08188c1fc32cdce45333858b18ef082b351318727e1",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-armeabi-v7a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-armeabi-v7a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "35b30fcfec2a7281d836eb3675ac3741303ae8c3677eca38113bb44361616394"
+  "sha256_armeabi_v7a": "a504e39c4a8e4ecb1e5c425a2fda0cb1c2368f282a74c1ec04eb00566747c474"
 }

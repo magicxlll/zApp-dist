@@ -1,15 +1,15 @@
 {
-  "versionCode": 39,
-  "versionName": "0.0.39",
-  "buildTimestamp": "2026-11-04T06:28:39Z",
-  "releaseNotes": "Bản cập nhật v0.0.39: Nâng cấp toàn diện nguồn CôBe Phim (cobephim v1.2.0): Sửa triệt để lỗi poster bị kéo dãn với thuật toán nhận diện thông minh tỷ lệ 2:3 chuẩn điện ảnh; Mở rộng 17 chuyên mục catalog phân loại phong phú chuẩn NguonC; Khắc phục lỗi tải phim, giải mã luồng StreamC HLS và Direct M3U8 siêu tốc; Tối ưu hóa timeout và hiệu năng phát.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-release.apk",
-  "sha256": "f253d517b518d537bc3bc987a9c2a9dd811b16e9684399cdba74c241d61589e7",
+  "versionCode": 40,
+  "versionName": "0.0.40",
+  "buildTimestamp": "2026-11-04T07:12:44Z",
+  "releaseNotes": "Bản cập nhật v0.0.40: 1) Tìm kiếm Chợ Fim đa nguồn theo hàng ngang chuẩn CloudStream, phân loại nguồn rõ ràng, loại trừ IPTV/Sports khi tìm phim. 2) Khám phá điện ảnh tìm kiếm đa nguồn tự động, thông báo lịch sự khi không có nguồn phát thay vì quăng lỗi HTTP 404 đỏ màn hình. 3) Sửa triệt để lỗi tràn viền 20px Quản lý nguồn và lỗi chạm màn hình video player. 4) Tích hợp tính năng Báo lỗi & Chuẩn đoán thiết bị (DPI, resolution, logs) hỗ trợ sao chép 1-click hoặc gửi GitHub Issues.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-release.apk",
+  "sha256": "67eb731c5cb4e8fc9ebb05dedc78514af0857730d37228ec41376f3dd79f2b6b",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-arm64-v8a-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-arm64-v8a-release.apk"
   },
-  "sha256_armeabi_v7a": "c870ee0790ecec199c44fabd6d0c1eeea58adf58ca9df724bf230194fc3de253",
-  "sha256_arm64": "5b6bbc91d176e7101a8a1db8b7a0c1cd354d56126d2e14fb36d875f12773ae3b"
+  "sha256_armeabi_v7a": "85d3094e04f57e94e327568ef70817e856d484e11092a0824cbf960c1e800347",
+  "sha256_arm64": "a3cea9b232bbb98902cc9139792eb4d66bdf0d5deb52293a2fb95131a41b5964"
 }
