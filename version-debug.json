@@ -1,16 +1,14 @@
 {
-  "versionCode": 38,
-  "versionName": "0.0.38",
-  "buildTimestamp": "2026-11-04T09:55:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.38 (Universal Debug - Phone & Tablet & TV):\n1. Giao diện xoay ngang: Morphing Dock hợp nhất với Logo zFim - nhấn vào logo bung dock dọc xuống từ chính vị trí đó với logo zFim là Kệ Fim (anchor bất biến, không xuất hiện 2 logo cùng lúc), tự thu nhỏ lại mượt mà khi ẩn sau 10s. Nút tìm kiếm góc phải chỉ hiển thị icon kính lúp, không còn nhãn text.\n2. Tìm kiếm trong nguồn: Nút nguồn trong popup tìm kiếm là droplist tương tác (tích hợp tùy chọn 'Tất cả các nguồn' và toàn bộ nguồn có sẵn), loại bỏ nút Đổi nguồn cồng kềnh; Giao diện lưới kết quả responsive chuẩn cho cả điện thoại và máy tính bảng.\n3. Chợ Fim: Đồng bộ 2 chiều nguồn đang chọn với Kệ Fim; Tính năng tìm kiếm đa nguồn học hỏi từ CloudStream (kết hợp đồng thời các nguồn active và phân phối kết quả round-robin); Thông báo không tìm thấy phim tinh tế nhẹ nhàng, loại bỏ hoàn toàn thông báo lỗi API kỹ thuật.\n4. Tối ưu máy tính bảng 10.3\" & Đa thiết bị: Khắc phục triệt để lỗi ép giao diện TV Leanback khi xoay ngang trên tablet (sửa lỗi đơ và không đổi nguồn được); Modal đổi nguồn căn giữa sang trọng và hỗ trợ cuộn mượt mà; Tỷ lệ bố cục và số cột lưới co giãn linh hoạt theo DPI và kích thước màn hình.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-  "sha256": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407",
+  "versionCode": 39,
+  "versionName": "0.0.39",
+  "buildTimestamp": "2026-11-04T06:28:39Z",
+  "releaseNotes": "Bản cập nhật v0.0.39: Nâng cấp toàn diện nguồn CôBe Phim (cobephim v1.2.0): Sửa triệt để lỗi poster bị kéo dãn với thuật toán nhận diện thông minh tỷ lệ 2:3 chuẩn điện ảnh; Mở rộng 17 chuyên mục catalog phân loại phong phú chuẩn NguonC; Khắc phục lỗi tải phim, giải mã luồng StreamC HLS và Direct M3U8 siêu tốc; Tối ưu hóa timeout và hiệu năng phát.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-debug.apk",
+  "sha256": "12d0e35d1340a76147f66132238ac941174a6e8840552c363e3ba3a7e2a16d9d",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-armeabi-v7a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407",
-  "sha256_arm64": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407"
+  "sha256_armeabi_v7a": "35b30fcfec2a7281d836eb3675ac3741303ae8c3677eca38113bb44361616394"
 }

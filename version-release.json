@@ -1,15 +1,15 @@
 {
-  "versionCode": 32,
-  "versionName": "0.0.32",
-  "buildTimestamp": "2026-11-02T05:46:49Z",
-  "releaseNotes": "Bản cập nhật v0.0.32: Tích hợp Title Logo TMDB trong suốt cho Hero Billboard và trang chi tiết phim; Tự động phát hiện và bỏ qua đoạn Intro/Outro qua TheIntroDB & SkipDB; Bổ sung font chữ UVN Hồng Hà Hẹp, sửa triệt để lỗi font tiếng Việt phụ đề và thêm màn hình tùy biến phụ đề; Nút 'Mở bằng trình phát ngoài' (Just Player, VLC trên Android TV; IINA trên macOS; PotPlayer trên Windows); Mở rộng kho nội dung với nguồn Thể Thao Trực Tiếp (ThapCamTV), Truyền Hình TV Trực Tiếp (VTV, HTV) và Kho Phim Tổng Hợp OPhim v3; Tích hợp Picture-in-Picture (PiP) native trên Android; Đăng nhập nhanh Android TV bằng quét mã QR qua điện thoại (TvQrPairing); Bộ tùy biến đa giao diện Design-System Archetypes trong Cài đặt.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-release.apk",
-  "sha256": "f90e0b92a9c3ec4e10e51e686546fdfa2e90adb9ab4f8dd4defb54d4db3feeb7",
+  "versionCode": 39,
+  "versionName": "0.0.39",
+  "buildTimestamp": "2026-11-04T06:28:39Z",
+  "releaseNotes": "Bản cập nhật v0.0.39: Nâng cấp toàn diện nguồn CôBe Phim (cobephim v1.2.0): Sửa triệt để lỗi poster bị kéo dãn với thuật toán nhận diện thông minh tỷ lệ 2:3 chuẩn điện ảnh; Mở rộng 17 chuyên mục catalog phân loại phong phú chuẩn NguonC; Khắc phục lỗi tải phim, giải mã luồng StreamC HLS và Direct M3U8 siêu tốc; Tối ưu hóa timeout và hiệu năng phát.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-release.apk",
+  "sha256": "f253d517b518d537bc3bc987a9c2a9dd811b16e9684399cdba74c241d61589e7",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.32/app-arm64-v8a-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-arm64-v8a-release.apk"
   },
-  "sha256_armeabi_v7a": "76d0c41881ec0ef99608bf4372d17f3d60b206e93c105853eae1938ff87a8f81",
-  "sha256_arm64": "ed70c15ff2aff86ae48e14beba326d6311f6ba53ac7612934568485242abcd6c"
+  "sha256_armeabi_v7a": "c870ee0790ecec199c44fabd6d0c1eeea58adf58ca9df724bf230194fc3de253",
+  "sha256_arm64": "5b6bbc91d176e7101a8a1db8b7a0c1cd354d56126d2e14fb36d875f12773ae3b"
 }

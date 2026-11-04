@@ -1,15 +1,15 @@
 {
-  "versionCode": 38,
-  "versionName": "0.0.38",
-  "buildTimestamp": "2026-11-04T09:55:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.38: Morphing Vertical Dock hợp nhất Logo zFim; Nút kính lúp tinh gọn; Popup tìm kiếm droplist inline đa nguồn; Chợ Fim đồng bộ nguồn với Kệ Fim và tìm kiếm đa nguồn CloudStream; Tối ưu hóa toàn diện cho máy tính bảng 10.3\".",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-  "sha256": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407",
+  "versionCode": 39,
+  "versionName": "0.0.39",
+  "buildTimestamp": "2026-11-04T06:28:39Z",
+  "releaseNotes": "Bản cập nhật v0.0.39: Nâng cấp toàn diện nguồn CôBe Phim (cobephim v1.2.0): Sửa triệt để lỗi poster bị kéo dãn với thuật toán nhận diện thông minh tỷ lệ 2:3 chuẩn điện ảnh; Mở rộng 17 chuyên mục catalog phân loại phong phú chuẩn NguonC; Khắc phục lỗi tải phim, giải mã luồng StreamC HLS và Direct M3U8 siêu tốc; Tối ưu hóa timeout và hiệu năng phát.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-release.apk",
+  "sha256": "f253d517b518d537bc3bc987a9c2a9dd811b16e9684399cdba74c241d61589e7",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.38/app-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.39/app-arm64-v8a-release.apk"
   },
-  "sha256_armeabi_v7a": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407",
-  "sha256_arm64": "ebb14d39bc93b5e1ce8e871e866d34a981c9beb6609c391a97680b27a07f1407"
+  "sha256_armeabi_v7a": "c870ee0790ecec199c44fabd6d0c1eeea58adf58ca9df724bf230194fc3de253",
+  "sha256_arm64": "5b6bbc91d176e7101a8a1db8b7a0c1cd354d56126d2e14fb36d875f12773ae3b"
 }
