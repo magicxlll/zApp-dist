@@ -1,15 +1,16 @@
 {
-  "versionCode": 40,
-  "versionName": "0.0.40",
-  "buildTimestamp": "2026-11-04T07:12:44Z",
-  "releaseNotes": "Bản cập nhật v0.0.40: 1) Tìm kiếm Chợ Fim đa nguồn theo hàng ngang chuẩn CloudStream, phân loại nguồn rõ ràng, loại trừ IPTV/Sports khi tìm phim. 2) Khám phá điện ảnh tìm kiếm đa nguồn tự động, thông báo lịch sự khi không có nguồn phát thay vì quăng lỗi HTTP 404 đỏ màn hình. 3) Sửa triệt để lỗi tràn viền 20px Quản lý nguồn và lỗi chạm màn hình video player. 4) Tích hợp tính năng Báo lỗi & Chuẩn đoán thiết bị (DPI, resolution, logs) hỗ trợ sao chép 1-click hoặc gửi GitHub Issues.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-release.apk",
-  "sha256": "67eb731c5cb4e8fc9ebb05dedc78514af0857730d37228ec41376f3dd79f2b6b",
+  "versionCode": 42,
+  "versionName": "0.0.42",
+  "buildTimestamp": "2026-11-04T09:30:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.42 (Giao diện Tizi Truyền hình & Bóng đá): 1) Nhóm Tizi chuyên biệt: 1/3 player cố định ở đỉnh, tự động phát kênh xem gần nhất; 2/3 dưới là danh mục kênh dạng lưới 16:9 nhỏ gọn, đổi kênh tức thì trong player. 2) Toàn màn hình xoay ngang: Tích hợp Drawer danh sách kênh 1/3 bên phải nền kính mờ trong suốt (frosted glass), đổi kênh không ngắt video. 3) Hỗ trợ Remote D-Pad tối ưu cho Android TV. 4) Tự động chuyển giao diện Tizi khi chọn nguồn truyền hình/bóng đá. 5) Đồng bộ hoàn toàn thanh điều hướng Dock ngang, Dock dọc và TV NavRail.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.42/app-debug.apk",
+  "sha256": "9b0b0cd6ae6682a52d6f93b8f094a8724b0be1639755a795b9af5ae13a25d5a4",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-arm64-v8a-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.42/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.42/app-armeabi-v7a-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.42/app-arm64-v8a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.42/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "85d3094e04f57e94e327568ef70817e856d484e11092a0824cbf960c1e800347",
-  "sha256_arm64": "a3cea9b232bbb98902cc9139792eb4d66bdf0d5deb52293a2fb95131a41b5964"
+  "sha256_armeabi_v7a": "ee4a423bcb41962d6ca4349e4aa2a4350a4d5bb3fd9401c84e3c92a71833ef08",
+  "sha256_arm64": "17be8b8bc990d8ace699254f954f86afa2eff366eee2d1b067b9449ff9459d05"
 }
