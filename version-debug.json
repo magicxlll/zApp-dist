@@ -1,14 +1,16 @@
 {
-  "versionCode": 40,
-  "versionName": "0.0.40",
-  "buildTimestamp": "2026-11-04T07:12:44Z",
-  "releaseNotes": "Bản cập nhật v0.0.40: 1) Tìm kiếm Chợ Fim đa nguồn theo hàng ngang chuẩn CloudStream, phân loại nguồn rõ ràng, loại trừ IPTV/Sports khi tìm phim. 2) Khám phá điện ảnh tìm kiếm đa nguồn tự động, thông báo lịch sự khi không có nguồn phát thay vì quăng lỗi HTTP 404 đỏ màn hình. 3) Sửa triệt để lỗi tràn viền 20px Quản lý nguồn và lỗi chạm màn hình video player. 4) Tích hợp tính năng Báo lỗi & Chuẩn đoán thiết bị (DPI, resolution, logs) hỗ trợ sao chép 1-click hoặc gửi GitHub Issues.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-debug.apk",
-  "sha256": "6d5e8c3094220ae4c6aed08188c1fc32cdce45333858b18ef082b351318727e1",
+  "versionCode": 41,
+  "versionName": "0.0.41",
+  "buildTimestamp": "2026-11-04T07:39:25Z",
+  "releaseNotes": "Bản cập nhật v0.0.41 (Clean Platform Mode): 1) App sạch nguồn mặc định - chuyển toàn bộ nguồn sang nạp động từ kho zFim01. 2) Bổ sung 2 nguồn IPTV trực tiếp vào kho: VietNga TV (470+ kênh) và Thể Thao Trực Tiếp (400+ link trực tiếp trận đấu). 3) Cập nhật và tối ưu tỷ lệ khung hình logo kênh truyền hình IPTV (contain) trên giao diện Android TV. 4) Hợp nhất tính năng tìm kiếm Chợ Fim đa nguồn chuẩn CloudStream và chẩn đoán thiết bị.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.41/app-debug.apk",
+  "sha256": "d547ff3b172bbcdc3f590c8109d67656f859323f082d2150dae8e4b668d47678",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-armeabi-v7a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.40/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.41/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.41/app-armeabi-v7a-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.41/app-arm64-v8a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.41/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "a504e39c4a8e4ecb1e5c425a2fda0cb1c2368f282a74c1ec04eb00566747c474"
+  "sha256_armeabi_v7a": "a550a3c46fbc0d7ea3fa07dab9017135653cf5728be1a63b571326d10df3f19e",
+  "sha256_arm64": "12b37f87b1c7e0325fe1903c7ca0c0dd726c2d484cc0de2c38efadde9ae1aef6"
 }
