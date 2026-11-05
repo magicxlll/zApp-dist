@@ -1,16 +1,16 @@
 {
-  "versionCode": 2047,
-  "versionName": "0.0.47",
-  "buildTimestamp": "2026-11-05T05:35:00Z",
-  "releaseNotes": "Bản cập nhật Debug v0.0.47: 1) Khắc phục chuyên sâu lỗi stream YanHH3D.de (Già Thiên, HHH3D): bóc tách lớp bọc JWPlayer data-obf (pU plain stream) và bổ sung Referer chuẩn https://yanhh3d.de/. Đã test và phát mượt trên máy ảo. 2) Cập nhật kho nguồn chính (zfim-default-sources) lên v1.4.1 (YanHH3D v1.0.4). 3) Cập nhật cơ chế template endpoint episode linh hoạt trong JsonScrapeAddon.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.47/app-debug.apk",
-  "sha256": "db095a461fac9fd1c493dd7d692e98fca5d2c56a0fa0e3b8d0087390451d0bae",
+  "versionCode": 2048,
+  "versionName": "0.0.48",
+  "buildTimestamp": "2026-11-05T07:30:00Z",
+  "releaseNotes": "Bản cập nhật Debug v0.0.48: 1) Khắc phục triệt để lỗi nguồn YanHH3D: tách biệt rõ ràng 2 Server Thuyết Minh & Vietsub (loại bỏ hoàn toàn hiện tượng hiển thị 2 Tập 1, 2 Tập 2...), bổ sung bộ chọn server Thuyết Minh / Vietsub trên giao diện chi tiết phim, sửa lỗi không tìm thấy link stream khả dụng. 2) Cập nhật đầy đủ 17 phân loại danh mục (Catalogs) cho nguồn YanHH3D. 3) Bổ sung kệ Top 10 Bảng Xếp Hạng chuẩn thời gian thực từ web (Tiên Nghịch, Phàm Nhân Tu Tiên, Đấu Phá Thương Khung...). 4) Cập nhật kho nguồn chính zFim01 lên phiên bản v1.4.2 (YanHH3D v1.0.5).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.48/app-debug.apk",
+  "sha256": "f7dcbc4cb6497c7a4916de17af3a5d62a5a90c9b0521a4380d37d84ba7b89fee",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.47/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.47/app-armeabi-v7a-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.47/app-arm64-v8a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.47/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.48/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.48/app-armeabi-v7a-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.48/app-arm64-v8a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.48/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "88f70127b0dbc773fa2335e59b813719dd840d6ea72aa299d51db4f99693ae68",
-  "sha256_arm64": "d737251697306569b176dfe2b616887dc0b66a07a981813e582941628b7ffbdb"
+  "sha256_armeabi_v7a": "cc3c366bee29972a3ab320a51c9ec45a90ae6b0c7cc55efe73ba9a979ac9965d",
+  "sha256_arm64": "a68cef857d3174268de04aee479f58b4d80dd82fe3038845a4a8400892fcfa0a"
 }
