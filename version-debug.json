@@ -1,16 +1,16 @@
 {
-  "versionCode": 2043,
-  "versionName": "0.0.43",
-  "buildTimestamp": "2026-11-04T10:10:00Z",
-  "releaseNotes": "Bản cập nhật Debug v0.0.43 (Giao diện Tizi Truyền hình & Bóng đá): 1) Nhóm Tizi chuyên biệt: 1/3 player cố định ở đỉnh, tự động phát kênh xem gần nhất; 2/3 dưới là danh mục kênh dạng lưới 16:9 nhỏ gọn, đổi kênh tức thì trong player. 2) Toàn màn hình xoay ngang: Tích hợp Drawer danh sách kênh 1/3 bên phải nền kính mờ trong suốt (frosted glass), đổi kênh không ngắt video. 3) Hỗ trợ Remote D-Pad tối ưu cho Android TV. 4) Tự động chuyển giao diện Tizi khi chọn nguồn truyền hình/bóng đá. 5) Đồng bộ hoàn toàn thanh điều hướng Dock ngang, Dock dọc và TV NavRail. 6) Tương thích hoàn hảo OTA cho mọi kiến trúc thiết bị (arm64-v8a, armeabi-v7a, universal).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.43/app-debug.apk",
-  "sha256": "54bfb157f05ca641bd43dfc8d4f316534909f28a835f95580697d97939cca124",
+  "versionCode": 2044,
+  "versionName": "0.0.44",
+  "buildTimestamp": "2026-11-05T02:18:00Z",
+  "releaseNotes": "Bản cập nhật Debug v0.0.44 (7 mục Debug & Tối ưu Trải nghiệm): 1) Tizi Landscape: Đã ẩn logo zFim và nút tìm kiếm dư thừa khi xoay ngang xem tivi. 2) Kệ Fim: Loại trừ hoàn toàn kênh tivi/thể thao khỏi mục Tiếp tục xem trên trang chủ. 3) Thể Thao Trực Tiếp: Lọc link chết (ebaclofen, no-signal, flv) và ưu tiên nhóm live HLS hoạt động ổn định (Khô Gà TV, S8 TV, Gà Vàng 24h, Cola TV, Xôi Lạc Z). 4) Báo lỗi & Chuẩn đoán: Tự động gửi ngầm về GitHub public magicxlll/zApp-dist kèm popup cảm ơn, không chuyển hướng trình duyệt. 5) Khắc phục triệt để lỗi cảm ứng Vivo X300 Pro (Android 17 / 144Hz): Tách biệt thao tác vuốt sang mép màn hình, loại bỏ xung đột cử chỉ giúp chạm vào màn hình luôn hiện giao diện điều khiển tức thì. 6) Chợ Fim: Lọc bỏ nguồn tivi/thể thao khi bấm phim gợi ý, hiển thị thumbnail 2:3 kèm badge chất lượng và nhãn TM-PĐ. 7) CôBe Phim: Sửa lỗi kéo dãn poster ngang, tự động đồng bộ poster dọc chuẩn 2:3 từ TMDB.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.44/app-debug.apk",
+  "sha256": "64a312bf39aa5d1eba7975bac6734b9d7543f2fd2fc5e4d4f31dc233f74a7be0",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.43/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.43/app-armeabi-v7a-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.43/app-arm64-v8a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.43/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.44/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.44/app-armeabi-v7a-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.44/app-arm64-v8a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.44/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "fcb869c8c71bbb7547d60182ec37433b4ee8a8c07b951243f8bd6b6eaea84617",
-  "sha256_arm64": "0f12cf11ba377269c383db292f92635c625e8d31993257e6c828c7efc22131f5"
+  "sha256_armeabi_v7a": "d985971a4037dba9bb64321a9b201da0f489a4924f9bc10733aa0d0685f56b6a",
+  "sha256_arm64": "2a954abc9f8dbd18ada991ae6eb0c5b4236f778763fca1914d8ca3fd4a3c1b39"
 }
