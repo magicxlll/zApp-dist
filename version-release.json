@@ -1,16 +1,16 @@
 {
-  "versionCode": 2054,
-  "versionName": "0.0.54",
-  "buildTimestamp": "2026-11-05T18:53:18Z",
-  "releaseNotes": "Bản cập nhật v0.0.54 (Cải tổ toàn diện Android TV theo kiến trúc RapNha & Leanback UI/UX): 1) Đồng bộ giao diện Billboard tràn viền (Ambient Full-Bleed Backdrop + Dual Vignette Gradient) tỷ lệ 52% chuẩn Netflix/RapNha cho tất cả các nguồn (NguonC, HH3D, YanHH3D, KKPhim, CôBe...). Loại bỏ khung poster hộp 2:3 bị méo và nút tìm kiếm trôi nổi trên TV. 2) Hiển thị vòng bao quanh (glowing focus ring màu Vàng Amber #E1C074, viền 2.5px, scale 1.06x) và hỗ trợ điều hướng D-pad remote hoàn hảo trên mọi màn hình: Hộp thoại chọn nguồn (autofocus nguồn hiện tại, phím Select/Enter), màn hình chi tiết phim (chuyển đổi nút Phát/Tiếp tục, Yêu thích, Phụ đề, Phát ngoài, chuyển mũi tên Xuống tới danh sách Đề xuất Có thể bạn cũng thích). 3) Khắc phục lỗi truyền hình Tizi trên Android TV: Tự động phát kênh khi mở tab Tizi, bao bọc nút phát trung tâm với focus ring và phím remote OK, bổ sung HTTP headers chống chặn stream và cơ chế tự động chuyển đổi sang Native Player khi luồng gặp lỗi. 4) Khắc phục triệt để lỗi trình phát video màn hình đen (số giây vẫn chạy): Chuyển bộ giải mã phần cứng sang mediacodec-copy kết hợp androidAttachSurfaceAfterVideoParameters, đồng thời mặc định sử dụng trình phát native Media3 ExoPlayer SurfaceView trên Android TV. 5) Tối ưu hóa hiệu năng và bộ nhớ: Tích hợp proxy ảnh wsrv.nl WebP 300px chất lượng 80% cho poster phim TV, giảm 80% RAM và chống tràn bộ nhớ OOM trên các TV Box 1GB/2GB RAM.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-release.apk",
-  "sha256": "6538cfb22cf61c06bf9ada5f6c267bb5593a4d330386d52eb3ea7a3ef6a0d730",
+  "versionCode": 2055,
+  "versionName": "0.0.55",
+  "buildTimestamp": "2026-11-05T19:46:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.55 (Khắc phục toàn diện 6 lỗi kiểm thử trên thiết bị): 1) Khắc phục lỗi SocketException errno 103 và Cloudflare TLS abort trên hh3d.com bằng cơ chế tự động chuyển hướng proxy Cloudflare Worker có bảo toàn Header & Referer. 2) Sửa lỗi lấy stream HandshakeException trên Thái Cổ Thần Tôn / HoatHinh3D qua bộ phân giải dự phòng Halim Resolver giải mã luồng video trực tiếp <500ms. 3) Khắc phục triệt để lỗi Net::ERR_BLOCKED_BY_ORB trên scontent.ibytedance.net bằng cách nhận diện chính xác luồng trực tiếp dạng /stream? và ibytedance.net để phát qua Native ExoPlayer. 4) Khắc phục lỗi Cloudflare 403 trên embed14.streamc.xyz: Tự động tiêm Referer phim.nguonc.com vào WebView scraper. 5) Khắc phục lỗi Đăng nhập đồng bộ đám mây (Cloud Sync HTTP 404): Chuyển endpoint sang bucket kvdb ổn định và xử lý lỗi ngầm an toàn. 6) Đồng bộ hóa repo.json lên phiên bản mới nhất v1.5.0 tương đồng 100% với zFim01.json trên cả zfim-default-sources và zApp-dist. 7) Sửa lỗi tràn giao diện 'RIGHT OVERFLOWED BY 68 PIXELS' trên nút 'Xem ngay' ở màn hình chi tiết phim.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-release.apk",
+  "sha256": "6bb97fba8dd7fefa1285d0557722db4cf3da21184fbe3fcaf42738a624368730",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "fc9098f78a6fe469acf8111aac4608cf28c587c5e83ae6bd922aa615aa7be01e",
-  "sha256_arm64": "5ceef10defcc9717ee0a56ed6cc31692e8fa65aedc245249d8dacc28c1c1e4e4"
+  "sha256_armeabi_v7a": "b6730bdce055cca9e9b1ee826323495cdf5065e5a58a3b2ded150a7c65eef2b6",
+  "sha256_arm64": "09929330db2a75c1c76f36a367e8144844f61faede0389913af6598101678b68"
 }
