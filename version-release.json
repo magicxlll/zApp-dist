@@ -1,16 +1,16 @@
 {
-  "versionCode": 2053,
-  "versionName": "0.0.53",
-  "buildTimestamp": "2026-11-05T17:58:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.53: 1) Khắc phục triệt để lỗi nguồn NguonC bị Cloudflare chặn bằng engine giải mã AES-256-GCM (aesgcm-v1) lấy trực tiếp link m3u8. 2) Hỗ trợ Dailymotion Native HLS phát trực tiếp trên trình phát zFim kèm chế độ WebView Fullscreen tự ẩn thanh công cụ. 3) Bổ sung 4 nguồn Hoạt hình 3D mới vào kho zFim01: HHPanda (hhpanda.me), HoatHinh3DSub (hoathinh3dsub.com), YanHH (yanhh.com giải mã XOR) và YanHH3D.ee (yanhh3d.ee). 4) Khắc phục lỗi ERR_BLOCKED_BY_ORB do thiếu Referer trên các luồng video ibytedance/tiktok.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.53/app-release.apk",
-  "sha256": "659739cf96ea7491d27623789348e227567b2e3e1b3159d733236712dc5e588b",
+  "versionCode": 2054,
+  "versionName": "0.0.54",
+  "buildTimestamp": "2026-11-05T18:53:18Z",
+  "releaseNotes": "Bản cập nhật v0.0.54 (Cải tổ toàn diện Android TV theo kiến trúc RapNha & Leanback UI/UX): 1) Đồng bộ giao diện Billboard tràn viền (Ambient Full-Bleed Backdrop + Dual Vignette Gradient) tỷ lệ 52% chuẩn Netflix/RapNha cho tất cả các nguồn (NguonC, HH3D, YanHH3D, KKPhim, CôBe...). Loại bỏ khung poster hộp 2:3 bị méo và nút tìm kiếm trôi nổi trên TV. 2) Hiển thị vòng bao quanh (glowing focus ring màu Vàng Amber #E1C074, viền 2.5px, scale 1.06x) và hỗ trợ điều hướng D-pad remote hoàn hảo trên mọi màn hình: Hộp thoại chọn nguồn (autofocus nguồn hiện tại, phím Select/Enter), màn hình chi tiết phim (chuyển đổi nút Phát/Tiếp tục, Yêu thích, Phụ đề, Phát ngoài, chuyển mũi tên Xuống tới danh sách Đề xuất Có thể bạn cũng thích). 3) Khắc phục lỗi truyền hình Tizi trên Android TV: Tự động phát kênh khi mở tab Tizi, bao bọc nút phát trung tâm với focus ring và phím remote OK, bổ sung HTTP headers chống chặn stream và cơ chế tự động chuyển đổi sang Native Player khi luồng gặp lỗi. 4) Khắc phục triệt để lỗi trình phát video màn hình đen (số giây vẫn chạy): Chuyển bộ giải mã phần cứng sang mediacodec-copy kết hợp androidAttachSurfaceAfterVideoParameters, đồng thời mặc định sử dụng trình phát native Media3 ExoPlayer SurfaceView trên Android TV. 5) Tối ưu hóa hiệu năng và bộ nhớ: Tích hợp proxy ảnh wsrv.nl WebP 300px chất lượng 80% cho poster phim TV, giảm 80% RAM và chống tràn bộ nhớ OOM trên các TV Box 1GB/2GB RAM.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-release.apk",
+  "sha256": "6538cfb22cf61c06bf9ada5f6c267bb5593a4d330386d52eb3ea7a3ef6a0d730",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.53/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.53/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.53/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.53/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.54/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "2edb33f51830e502e20f40e8727d3bf032f2abe1a49d3759860af9473c2460a1",
-  "sha256_arm64": "f8ec819ee8d7f9dce2321b06ff1d759f3e0fd7df32ee18e92187fb9f7929b9a9"
+  "sha256_armeabi_v7a": "fc9098f78a6fe469acf8111aac4608cf28c587c5e83ae6bd922aa615aa7be01e",
+  "sha256_arm64": "5ceef10defcc9717ee0a56ed6cc31692e8fa65aedc245249d8dacc28c1c1e4e4"
 }
