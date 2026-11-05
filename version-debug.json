@@ -1,16 +1,16 @@
 {
-  "versionCode": 2045,
-  "versionName": "0.0.45",
-  "buildTimestamp": "2026-11-05T03:42:00Z",
-  "releaseNotes": "Bản cập nhật Debug v0.0.45 (4 mục Debug & Tối ưu Trải nghiệm): 1) Khắc phục triệt để lỗi màn hình xem phim đen thui và không thao tác được: khắc phục nhận diện sai chế độ PiP trên màn hình điện thoại (Vivo X300 Pro và các máy Android), tối ưu độ nhạy chạm hiển thị bảng điều khiển ngay tức thì kể cả khi đang tải. 2) Chuẩn hóa tỉ lệ poster CôBe Phim chuẩn 2:3 điện ảnh: đảo ngược mapping Darkbytes -thumb.webp (dọc 2:3) và -poster.webp (ngang 16:9), tự động đồng bộ poster dọc từ TMDB cho các phim có tmdb_id (như Bác Sĩ X). 3) Tab Tizi tự động ngắt âm thanh khi chuyển tab: dừng phát ngay lập tức khi chuyển sang Chợ Fim/Kệ Fim/Đổi Fim và tự động phát lại khi quay về tab Tizi. 4) YanHH3D tự động cập nhật tên miền qua bit.ly/yanhh3d: chuyển sang https://yanhh3d.de và tự động bám sát chuyển hướng khi nhà cung cấp đổi domain. 5) Triệt tiêu vòng lặp thông báo cập nhật nhờ chuẩn so sánh normalized versionCode.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.45/app-debug.apk",
-  "sha256": "2642e1ce076ae2c37082b6c3f8289a34d87dce5d0723d6c13c9ebab41b37e089",
+  "versionCode": 2046,
+  "versionName": "0.0.46",
+  "buildTimestamp": "2026-11-05T04:25:00Z",
+  "releaseNotes": "Bản cập nhật Debug v0.0.46: 1) Khắc phục triệt để lỗi Player màn hình đen & kẹt thao tác trên mọi thiết bị và Vivo X300 Pro (Android 17 / 144Hz): khôi phục trọn vẹn kiến trúc GestureDetector v0.0.43, bổ sung nút Quay lại thoát nhanh khi phát sinh lỗi luồng stream. 2) Cập nhật kho nguồn chính (zfim-default-sources) lên v1.4.0: YanHH3D chuyển sang tên miền https://yanhh3d.de và tự động lấy domain qua bit.ly/yanhh3d. 3) Tích hợp tính năng Tự động Đồng bộ Kho nguồn (Auto-Sync) ngầm khi mở app và mở Quản lý nguồn. 4) Tối ưu hóa poster nguồn CôBe Phim: tự động làm giàu poster điện ảnh tỉ lệ 2:3 từ TMDB.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.46/app-debug.apk",
+  "sha256": "37ffdfa185a3150de7bcd470826880fbfd78a304f6f44cf482c8f504a22b06d0",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.45/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.45/app-armeabi-v7a-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.45/app-arm64-v8a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.45/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.46/app-debug.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.46/app-armeabi-v7a-debug.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.46/app-arm64-v8a-debug.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.46/app-tv-debug.apk"
   },
-  "sha256_armeabi_v7a": "54aabd2a73483b50fe4294ed617e77b6070701279e6fd9077a4b95a57c165ba6",
-  "sha256_arm64": "608d7ca476408ed0b732235097f063aab8ca63a61b630e32f67a37bbf7ffe6fb"
+  "sha256_armeabi_v7a": "e5d95da899ab0e9ea6ee6843d73258d979af206e65536ebd63d63ebe554bad0b",
+  "sha256_arm64": "e330bbabaa734434673acd365f85ac0a15ce2f4ab94288498e2f8f7b4031799e"
 }
