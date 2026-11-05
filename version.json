@@ -1,16 +1,16 @@
 {
-  "versionCode": 2051,
-  "versionName": "0.0.51",
-  "buildTimestamp": "2026-11-05T12:35:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.51: 1) Tích hợp và hỗ trợ hoàn hảo 3 nguồn phim mới: HH3D (hh3d.com), Hoạt Hình 3D (hoathinh3d.pw) và HHHTQ (hhhtq.team). 2) Bổ sung engine giải mã Halim player (AES-256-GCM) và hỗ trợ In-App WebView. 3) Khắc phục lỗi Đăng nhập đồng bộ đám mây (Cloud Sync HTTP 404). 4) Khắc phục lỗi poster bị chặn 403 từ Cloudflare. 5) Sửa lỗi tràn layout Right overflowed by 68 pixels ở nút Xem ngay trên màn hình chi tiết phim. 6) Chuẩn hóa danh sách tập không bị lặp tên phim. 7) Thêm cơ chế tự động thử lại kết nối với socket mới khi gặp lỗi mạng errno 103 / HandshakeException.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.51/app-release.apk",
-  "sha256": "1ded92fe7fadfdec5a448c91e4b5428add5f73a61f2381f86c123bcd762c7a66",
+  "versionCode": 2052,
+  "versionName": "0.0.52",
+  "buildTimestamp": "2026-11-05T13:55:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.52: 1) Hỗ trợ toàn diện 3 nguồn phim: HH3D (hh3d.com), Hoạt Hình 3D (hoathinh3d.pw) và HHHTQ (hhhtq.team). 2) Tích hợp proxy ảnh wsrv.nl chống chặn 403 Forbidden và lỗi TLS handshake trên bìa phim. 3) Bóc tách stream trực tiếp qua Dailymotion Native Resolver (HHHTQ), Halim 24-hex ClientId (HoatHinh3D) và Donghua3d Obf HLS (HH3D). 4) Cơ chế tự động fallback qua Cloudflare Worker khi gặp SocketException errno 103 trên Android. 5) Sửa lỗi tràn layout Right overflowed by 68 pixels ở nút Xem ngay trên màn hình chi tiết phim. 6) Khắc phục lỗi đồng bộ đám mây (Cloud Sync HTTP 404).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.52/app-release.apk",
+  "sha256": "67b0d4ea5b344d7cc73002c33a7ece04275d5b2b9274e23e08cb955fb902fde6",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.51/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.51/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.51/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.51/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.52/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.52/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.52/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.52/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "a7317118568ba72af8cda0cd6c739ba23399a3118b683884bab8439a9669acc5",
-  "sha256_arm64": "0ada5f7f4fb838aacf1fe0c99394c5deea6d7349430bdc7bc92773674f198bca"
+  "sha256_armeabi_v7a": "59dc941285a5402e0e79258f66d2c05fc2ec607b6b2ecba290896c11e578bb70",
+  "sha256_arm64": "056b15ce0979c45cff14c1e273432e105190cee0c08757b98cd886074ba0ea15"
 }
