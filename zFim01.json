@@ -201,13 +201,14 @@
       "kind": "single",
       "id": "yanhh3d",
       "name": "YanHH3D",
-      "version": "1.0.1",
-      "description": "Hoạt hình Trung Quốc 3D thuyết minh và vietsub từ yanhh3d.plus",
-      "logo": "https://yanhh3d.plus/storage/settings/January2026/logo.png",
-      "base": "https://yanhh3d.plus",
+      "version": "1.0.2",
+      "description": "Hoạt hình Trung Quốc 3D thuyết minh và vietsub từ yanhh3d.de (tự động cập nhật tên miền mới qua bit.ly/yanhh3d)",
+      "logo": "https://yanhh3d.de/storage/settings/August2024/YOoAwtlobLbwKhiFwRZv.png",
+      "base": "https://yanhh3d.de",
+      "dynamicDomainUrl": "https://bit.ly/yanhh3d",
       "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Referer": "https://yanhh3d.plus/"
+        "Referer": "https://yanhh3d.de/"
       },
       "types": [
         "series",
@@ -281,8 +282,8 @@
       },
       "streamFilters": {
         "blocklistHosts": [
-          "https://bit.ly/yanhh3d",
-          "https://raw.githubusercontent.com/Datj0000/domain/refs/heads/main/yanhh3d.txt"
+          "ads.example.com",
+          "doubleclick.net"
         ],
         "bannedTerms": [
           "quangcao",
