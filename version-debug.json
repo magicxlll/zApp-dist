@@ -1,16 +1,16 @@
 {
-  "versionCode": 2049,
-  "versionName": "0.0.49",
-  "buildTimestamp": "2026-11-05T08:18:00Z",
-  "releaseNotes": "Bản cập nhật Debug v0.0.49: 1) Hoàn thiện tính năng đăng nhập tài khoản và đồng bộ đám mây 2 chiều (Cloud Sync) cho lịch sử xem và danh sách phim yêu thích (favoriteMetas) giữa các nền tảng (Điện thoại, Máy tính, Android TV). 2) Sửa triệt để lỗi tràn pixel (RenderFlex overflow) trên màn hình ghép mã Android TV (TvQrPairingScreen). 3) Đổi toàn bộ nhãn hiển thị 'Đổi Fim' thành 'Nguồn Fim' trên thanh điều hướng và menu trang chủ. 4) Chọn mặc định nhà cung cấp Cloudflare DNS trong mục thiết lập. 5) Nguồn tivi chỉ hiển thị tại Tab Tizi, không xuất hiện trên kệ phim; ngắt kết nối hoàn toàn luồng phát khi rời tab Tizi; mặc định hiển thị kênh gần nhất ở trạng thái chờ (tự chọn play), bổ sung nút bật/tắt tự động phát trong Cài đặt. 6) Tinh giản làm sạch văn bản trong mục Thiết lập (bỏ chú thích trong ngoặc và tên bên thứ ba). 7) Tùy chọn bật/tắt popup bỏ qua giới thiệu (tự ẩn sau 3s), sửa lỗi bỏ qua giới thiệu tự động. 8) Khắc phục tăng giảm độ sáng và âm lượng hệ thống trên trình phát cho các dòng máy Vivo (X300 Pro) và thiết bị Android 15. 9) Nâng cấp cơ chế kiểm tra OTA Update thông minh hỗ trợ so sánh chuỗi SemVer đa tầng.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.49/app-debug.apk",
-  "sha256": "11a12f90e404ab91c885ea8b3af64062df5ec4058804d9e41baad67ffbe0e3b4",
+  "versionCode": 2050,
+  "versionName": "0.0.50",
+  "buildTimestamp": "2026-11-05T10:48:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.50: 1) Sửa lỗi giao diện Android TV không hiện tên phân loại kệ phim và poster bị cắt đầu (điều chỉnh tỷ lệ hero billboard và spacing chuẩn Leanback). 2) Tối ưu giao diện chi tiết phim (DetailScreen): tự động focus nút Xem ngay với hiệu ứng nổi bật cao (high contrast 1.08x, glow), hỗ trợ điều hướng D-pad qua các server và danh sách tập mượt mà. 3) Tối ưu trải nghiệm xem Tivi (Tizi): phím Back trên remote điều khiển đóng danh sách kênh hoặc quay về Trang chủ thay vì thoát app; bổ sung nút Đóng danh sách kênh cho remote D-pad. 4) Khắc phục lỗi màn hình tối thui khi xem phim trên TV (tắt software dimming overlay và tối ưu khởi tạo surface). 5) Tối ưu hóa toàn diện điều khiển remote D-pad.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-release.apk",
+  "sha256": "604d4c3dd6ac9b186495c91b68dce905b9b86be5d1019b509d4a7b3b2335b99f",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.49/app-debug.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.49/app-armeabi-v7a-debug.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.49/app-arm64-v8a-debug.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.49/app-tv-debug.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "ffb218d809cff032a1e6cd96ca873dfa2672da2741b8c2e4593fe094828bb6f6",
-  "sha256_arm64": "159358563c7a59f55bf06d6d76720e79e8975d51b47d471d95f6b9e450c34284"
+  "sha256_armeabi_v7a": "42a745872a969d037becb9b12f133e930f1c4db116ed744d3bfcf3371abe1418",
+  "sha256_arm64": "23b700964de92218f8dc1810b164d6e5874438578d077c13c2654f601930fffa"
 }
