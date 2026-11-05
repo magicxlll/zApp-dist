@@ -1,16 +1,16 @@
 {
   "versionCode": 2050,
   "versionName": "0.0.50",
-  "buildTimestamp": "2026-11-05T10:48:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.50: 1) Sửa lỗi giao diện Android TV không hiện tên phân loại kệ phim và poster bị cắt đầu (điều chỉnh tỷ lệ hero billboard và spacing chuẩn Leanback). 2) Tối ưu giao diện chi tiết phim (DetailScreen): tự động focus nút Xem ngay với hiệu ứng nổi bật cao (high contrast 1.08x, glow), hỗ trợ điều hướng D-pad qua các server và danh sách tập mượt mà. 3) Tối ưu trải nghiệm xem Tivi (Tizi): phím Back trên remote điều khiển đóng danh sách kênh hoặc quay về Trang chủ thay vì thoát app; bổ sung nút Đóng danh sách kênh cho remote D-pad. 4) Khắc phục lỗi màn hình tối thui khi xem phim trên TV (tắt software dimming overlay và tối ưu khởi tạo surface). 5) Tối ưu hóa toàn diện điều khiển remote D-pad.",
+  "buildTimestamp": "2026-11-05T11:09:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.50: 1) Khắc phục lỗi mã phiên bản phát hành (versionCode 2050 chuẩn ABI split) đảm bảo mọi thiết bị cài đặt v0.0.49 cập nhật thẳng lên v0.0.50 không bị báo lỗi phiên bản cũ. 2) Sửa lỗi giao diện Android TV không hiện tên phân loại kệ phim và poster bị cắt đầu. 3) Tối ưu giao diện chi tiết phim (DetailScreen): tự động focus nút Xem ngay với hiệu ứng nổi bật cao (high contrast 1.08x, glow), hỗ trợ điều hướng D-pad qua các server và danh sách tập mượt mà. 4) Tối ưu trải nghiệm xem Tivi (Tizi): phím Back trên remote điều khiển đóng danh sách kênh hoặc quay về Trang chủ thay vì thoát app; bổ sung nút Đóng danh sách kênh cho remote D-pad. 5) Khắc phục lỗi màn hình tối thui khi xem phim trên TV.",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-release.apk",
-  "sha256": "604d4c3dd6ac9b186495c91b68dce905b9b86be5d1019b509d4a7b3b2335b99f",
+  "sha256": "15488179ff451c03b0bf7b1348e2b6d26fcc628926d5cdbdb703fcbbdffe6f51",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-release.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-armeabi-v7a-release.apk",
     "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-arm64-v8a-release.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.50/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "42a745872a969d037becb9b12f133e930f1c4db116ed744d3bfcf3371abe1418",
-  "sha256_arm64": "23b700964de92218f8dc1810b164d6e5874438578d077c13c2654f601930fffa"
+  "sha256_armeabi_v7a": "cf9adc1a84a26891c4ead1db89f75b1e40b2b764e5b481aaefb456e2429f4792",
+  "sha256_arm64": "f494524b72a1c98f372e0bbf6be3a037e09535c5d997aac543d997dc6ee7cb39"
 }
