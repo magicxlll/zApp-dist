@@ -1,16 +1,16 @@
 {
-  "versionCode": 2064,
-  "versionName": "0.0.64",
-  "buildTimestamp": "2026-11-06T17:33:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.64 (Khắc phục văng Player, Tinh chỉnh Waiting Poster & Đồng bộ QR CloudSync): 1) Player: Khắc phục triệt để lỗi crash văng app (SIGSEGV) khi vào màn hình chờ phát phim trên cả TV và mobile bằng cách loại bỏ lệnh set vo/gpu-context trực tiếp vi phạm luồng Surface của libmpv. 2) Poster chờ tải phim: Bổ sung hiệu ứng đen mờ 4 góc (Theatrical Radial Vignette) chuẩn điện ảnh, loại bỏ thông báo chữ và vòng xoay spinner. 3) Home: Cố định vị trí logo tên phim bên trái (Alignment.centerLeft) không bị giật nhảy, căn chỉnh thông tin phim nằm gọn phía trên kệ 'Mới Cập Nhật'. 4) Chi tiết phim xoay ngang trên điện thoại: Tự động chuyển layout 2 cột cinematic chuẩn TV (poster mờ chân điện ảnh, poster sắc nét từ TMDb), nút 'Xem ngay' dạng pill thon gọn cao cấp (height 40, bo góc 22dp) và phát đúng tập đang xem gần nhất. 5) Ghép nối QR & Đồng bộ đa thiết bị: Sử dụng Cloud Relay ntfy.sh tốc độ cao; tự động chuẩn hóa mã ghép nối 6-8 ký tự; truyền trực tiếp lịch sử xem phim và phim yêu thích ngay trong gói bắt tay QR handshake và đồng bộ hai chiều mượt mà giữa TV và điện thoại.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-release.apk",
-  "sha256": "7ac4d79a48b3ef56714d5db9fe61462a44207c7017d2f543d256a220e063b62d",
+  "versionCode": 2065,
+  "versionName": "0.0.65",
+  "buildTimestamp": "2026-11-06T17:55:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.65 (Khắc phục lỗi màn hình đen Player, Tinh chỉnh Waiting Poster sáng rõ, Sửa hiệu ứng chọn Lưới phim TV & Bỏ viền dư thừa nút Server): 1) Player: Khắc phục triệt để lỗi màn hình đen khi phim đang phát (chạy giây) bằng cách gắn kết SurfaceTexture ngay khi khởi tạo (androidAttachSurfaceAfterVideoParameters: false) và sử dụng cơ chế giải mã phần cứng tự động an toàn (hwdec: auto-safe). 2) Poster chờ tải phim: Tăng cường độ sáng rực rỡ sắc nét cho poster, mở rộng vùng sáng trung tâm (radius 1.35), giảm hiệu ứng mờ đen 4 góc nhẹ nhàng tự nhiên. 3) Lưới phim phân loại TV (Category Grid): Tự động focus ngay vào phim đầu tiên khi tải xong, bổ sung viền vàng rực rỡ (2.8px) kèm hiệu ứng scale 1.08 và hào quang glow nổi bật, điều hướng D-pad mượt mà giữa AppBar và danh sách phim. 4) Trang chi tiết phim: Loại bỏ hoàn toàn vòng hiệu ứng viền trắng dư thừa trên nút chọn Thuyết minh | Vietsub, đồng bộ giao diện pill cao cấp.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-release.apk",
+  "sha256": "598c95ef1127a60660321ce2562f1f1dbe2433a4d7d4d67816d3a3cc6deb353c",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "d44281c5bd5d895abec5bf7b000c08f6846b345a33eee27259aaea200f97cea9",
-  "sha256_arm64": "cc37a2f1b581a9b8534b0cae905060024cffd660b82bdefad4f537e60c1f1257"
+  "sha256_armeabi_v7a": "2dd352517d0510d888a2dba9af99d314e705abe0ea5c36eb2574a3028fb5b0f2",
+  "sha256_arm64": "9e3e396a0e540a444686002bdce3e3b2a2880b56d08620534eb3b577db67fdce"
 }
