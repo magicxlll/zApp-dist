@@ -1,16 +1,16 @@
 {
-  "versionCode": 2058,
-  "versionName": "0.0.58",
-  "buildTimestamp": "2026-11-06T04:20:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.58 (Tinh chỉnh UI/UX TV Leanback chuẩn RapNha, Fix lỗi phát nguồn & Sắc nét giao diện mọi nguồn): 1) Khắc phục lỗi list phim đè lên hero-banner: Thu nhỏ kích thước poster phim (104x156dp), thu gọn độ cao hàng phim (204dp), bố trí thông tin hero-banner gọn gàng lên cao không bị đè vào kệ phim bên dưới. 2) Trang thông tin phim (DetailScreen TV Layout): Hạ độ cao billboard từ 400dp xuống 285dp, giảm mờ tối gradient để hình ảnh poster nền sáng rõ, thu nhỏ các nút tập phim dạng viên thuốc (compact pills) hiển thị được nhiều tập hơn, hỗ trợ điều hướng D-pad mượt mà xuống kệ 'Có thể bạn cũng thích' và ngược lại. 3) Khắc phục lỗi Player: Sửa lỗi nhận diện HLS trong NativePlayerActivity (ExoPlayer) cho các nguồn stream token (streamc.xyz...), thêm cơ chế tự động thử lại khi lỗi định dạng và bổ sung User-Agent trình duyệt tiêu chuẩn. 4) Loại bỏ lớp mờ che hero-banner và dock dọc: Xóa bỏ hoàn toàn BackdropFilter tràn viền trên các nguồn YanHH3D, HoatHinh, Panda... giúp giao diện đồng bộ sắc nét 100% như NguonC. 5) Phát hành đầy đủ 4 gói APK (Universal, ARM64, ARMv7, TV) trên OTA.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-release.apk",
-  "sha256": "43ef4f292a86e18f319fdbda0778fbd7e3bdd9c7a6170b9b1d5b4c40dfbaede3",
+  "versionCode": 2059,
+  "versionName": "0.0.59",
+  "buildTimestamp": "2026-11-06T08:05:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.59 (Cải tổ UI/UX TV Leanback chuẩn RapNha & Xóa bỏ điểm mù D-Pad): 1) Hero Billboard Banner: Tự động đổi phim tâm điểm mỗi 7 giây (Auto-Carousel), bổ sung nút chuyển phim kế tiếp [ > ], chỉ báo viên thuốc & chấm tròn [ ─── · · · · ] và cụm nút chuẩn RapNha ([ ▶ Xem ngay ], [ ⓘ Chi tiết ], [ + Danh sách ]). 2) Bố cục lại Dock dọc (TvNavRail): Kính lúp (Tìm kiếm) ở trên cùng (index 0), dưới đó là Trang chủ / Kệ phim (index 1 - mặc định), Tizi (index 2), Chợ Fim (index 3), Coi Fim (index 4), Cài đặt (index 5). 3) Khắc phục lỗi Tizi TV: Sửa lỗi kẹt tiêu điểm ngăn remote vào danh sách kênh (gắn Focus cho Category pills, GridView và gán _firstChannelFocusNode), bổ sung giải mã phần mềm fallback (mediacodec-copy,auto-safe,no) chống màn hình đen trên TV Box/máy ảo, và ưu tiên kênh phát ổn định VTV1 HD. 4) Trang thông tin phim (DetailScreen TV): Bố cục danh sách tập thành lưới 2 hàng gọn gàng (cao 98dp), phân nhóm dải 50 tập (1-50, 51-100...) tránh tràn màn hình, hạ độ cao billboard xuống 250dp, làm trong trẻo ảnh nền và sửa triệt để lỗi kẹt D-pad khi di chuyển từ 'Có thể bạn cũng thích' lên trên. 5) Trình phát video: Mặc định chuyển sang Flutter PlayerScreen trên TV mang trọn vẹn 100% tính năng mobile (phụ đề, audio track, đổi server, hẹn giờ, điều khiển D-pad mượt mà, khôi phục độ sáng khi thoát).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.59/app-release.apk",
+  "sha256": "2239838fd3cc34acf0cabc2f4b1f85fb01fff9170d23804cefb2a49ba92056e8",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.59/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.59/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.59/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.59/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "b10c961d293cd01fcf110240a5bdd9d3bba42f3a909765be95b32b4d5ed175b5",
-  "sha256_arm64": "2bb1654ab86e4648d6c7c38b850c676b5e9b9fe882977f5760169f417f603b26"
+  "sha256_armeabi_v7a": "fb81ba91d37d739a9a7726a33a0d5ee0785359aee295a889d2c9feb4cf2d9a96",
+  "sha256_arm64": "ac6f6dd8f823b334234ba7501f648bc37bc94c036e2f71c2c9dfb83887841125"
 }
