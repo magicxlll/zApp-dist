@@ -1,16 +1,16 @@
 {
-  "versionCode": 2065,
-  "versionName": "0.0.65",
-  "buildTimestamp": "2026-11-06T17:55:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.65 (Khắc phục lỗi màn hình đen Player, Tinh chỉnh Waiting Poster sáng rõ, Sửa hiệu ứng chọn Lưới phim TV & Bỏ viền dư thừa nút Server): 1) Player: Khắc phục triệt để lỗi màn hình đen khi phim đang phát (chạy giây) bằng cách gắn kết SurfaceTexture ngay khi khởi tạo (androidAttachSurfaceAfterVideoParameters: false) và sử dụng cơ chế giải mã phần cứng tự động an toàn (hwdec: auto-safe). 2) Poster chờ tải phim: Tăng cường độ sáng rực rỡ sắc nét cho poster, mở rộng vùng sáng trung tâm (radius 1.35), giảm hiệu ứng mờ đen 4 góc nhẹ nhàng tự nhiên. 3) Lưới phim phân loại TV (Category Grid): Tự động focus ngay vào phim đầu tiên khi tải xong, bổ sung viền vàng rực rỡ (2.8px) kèm hiệu ứng scale 1.08 và hào quang glow nổi bật, điều hướng D-pad mượt mà giữa AppBar và danh sách phim. 4) Trang chi tiết phim: Loại bỏ hoàn toàn vòng hiệu ứng viền trắng dư thừa trên nút chọn Thuyết minh | Vietsub, đồng bộ giao diện pill cao cấp.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-release.apk",
-  "sha256": "598c95ef1127a60660321ce2562f1f1dbe2433a4d7d4d67816d3a3cc6deb353c",
+  "versionCode": 2066,
+  "versionName": "0.0.66",
+  "buildTimestamp": "2026-11-06T18:28:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.66 (Cố định vị trí Logo & Thông tin Trang chủ TV, Hiệu ứng đen mờ 4 góc dịu mắt & Giải pháp màn hình đen Player): 1) Trang chủ TV (Home Screen): Khôi phục vị trí logo và thông tin phim về vị trí chuẩn góc trái (left: 88, top: 18), neo cứng AnimatedSwitcher vào topLeft (layoutBuilder: Stack(alignment: Alignment.topLeft)), loại bỏ FittedBox gây giật nhảy, đảm bảo logo và thông tin cố định cứng 100% bên trái từ frame đầu tiên. 2) Poster chờ tải phim: Tinh chỉnh hiệu ứng tối 4 góc dịu dàng chuẩn điện ảnh (RadialGradient radius 1.10, stops 0.40, 0.75, 1.0) giúp trải nghiệm xem phim trong môi trường phòng tối cực kỳ êm mắt, không chói lóa. 3) Trình xem phim: Giải thích và xử lý triệt để nguyên nhân màn hình đen (gắn kết SurfaceTexture lập tức, loại bỏ cờ hoãn attachSurface, dùng hwdec: auto-safe chống tràn bộ nhớ GPU trên Android TV).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-release.apk",
+  "sha256": "2b2eb21eecb2c60faddf22967331275afd0256c545517cc996598b36a48a3325",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.65/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "2dd352517d0510d888a2dba9af99d314e705abe0ea5c36eb2574a3028fb5b0f2",
-  "sha256_arm64": "9e3e396a0e540a444686002bdce3e3b2a2880b56d08620534eb3b577db67fdce"
+  "sha256_armeabi_v7a": "a87bdac6347e9af005f825ce0c8c4be1f5849bc51722f8568d90dcfb2d1ad623",
+  "sha256_arm64": "b621fc608dea1e56b9e03b76cd23dbe5edc7872d003f18347d8c3b93b7a3b13c"
 }
