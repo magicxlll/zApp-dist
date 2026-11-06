@@ -1,16 +1,16 @@
 {
-  "versionCode": 2061,
-  "versionName": "0.0.61",
-  "buildTimestamp": "2026-11-06T10:48:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.61 (Tối ưu giao diện TV Leanback chuẩn RapNha & Sửa lỗi toàn diện): 1) Home: Tinh chỉnh tỉ lệ chuẩn đưa list phim ngang lên trên vừa đủ hiển thị tên phim dưới poster, hạ hero info cách mép trên vừa vặn và cách xa label kệ phim bên dưới. 2) DetailScreen: Full-bleed poster banner 16:9 sắc nét với hiệu ứng mờ mềm mại chuẩn như Home, xóa bỏ hoàn toàn viền thừa trên nút phát và nút chọn server. 3) Trình phát video: Khôi phục trình phát Native ExoPlayer chuẩn Android TV cho trải nghiệm mượt mà, loại bỏ 100% lỗi màn hình đen trên TV Box/máy ảo. 4) Tab Tizi: Tích hợp phát kênh IPTV trực tiếp qua ExoPlayer không còn màn hình đen. 5) Chợ Fim: Khôi phục chuẩn xác giao diện và nội dung Chợ Fim (GlobalSearchScreen - khám phá toàn bộ catalog và tìm kiếm) đồng bộ với bản mobile.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.61/app-release.apk",
-  "sha256": "50c65f0702a0bdbddefab645458c1893b2e93abc047cc6be10d3fd1dd45e5bae",
+  "versionCode": 2062,
+  "versionName": "0.0.62",
+  "buildTimestamp": "2026-11-06T15:39:09Z",
+  "releaseNotes": "Bản cập nhật v0.0.62 (Đồng bộ giao diện TV Leanback & Khôi phục Cinematic Loading Splash trên Player): 1) Home: Hero banner 100% full viền màn hình phía sau dock kính mờ frosted glass thời thượng, hạ vị trí thông tin phim sát kệ phim, bỏ nút tìm kiếm thừa ở hero, khắc phục khóa focus D-pad khi đổi nguồn, thêm nút mũi tên mở rộng danh mục phim. 2) DetailScreen: D-Pad chọn nút đảo ngược thứ tự danh sách tập phim, bỏ nút tải phụ đề trên TV, hero banner full-bleed tràn màn hình mờ ảo chân điện ảnh. 3) Trình xem phim: Khôi phục màn hình chờ tải phim chuẩn điện ảnh (Cinematic Loading Splash Screen) hiển thị backdrop/poster 16:9 kèm logo tên phim hiệu ứng phát sáng huyền ảo từ API IMDb/TMDb, nhãn tập và vòng xoay loading mượt mà trên cả Android TV và Mobile.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.62/app-release.apk",
+  "sha256": "0d4964ab57a349db2a56e10bc6840fbbeef3eac1985da85690d22a6f6517a915",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.61/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.61/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.61/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.61/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.62/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.62/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.62/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.62/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "bb5f985aecd4c03d896208e68115173e87fdd214d30380646828f2875332bcb3",
-  "sha256_arm64": "d399bb363e7969b2f1af4417c1edcb1edd8ced5b6eb81362ad0e0f7300caefd3"
+  "sha256_armeabi_v7a": "714b7811cc1de00fd08d6cc981fe55d5d89a7caba62e7acf33204f30d37af6e8",
+  "sha256_arm64": "6521aba44a608dfcb1d1ae70e6448e7662ee98decdbce1fa28ddc11f0e3d9b1e"
 }
