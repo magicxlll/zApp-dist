@@ -1,16 +1,16 @@
 {
-  "versionCode": 2056,
-  "versionName": "0.0.56",
-  "buildTimestamp": "2026-11-06T02:25:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.56 (Đại tu giao diện TV Leanback chuẩn RapNha & Sửa triệt để các lỗi TV): 1) Đồng bộ giao diện TV toàn diện cho TẤT CẢ các nguồn: Hero banner toàn màn hình dạng Stack tràn viền với hiệu ứng chuyển màu (melt gradient) kéo dài xuống chân của kệ phim đầu tiên (dưới chân list là tối nhất, chuyển dần lên trên rõ dần theo đúng chuẩn RapNha). 2) Kệ phim hiển thị 100% đầy đủ tên phim dưới poster, không bị che khuất hay cắt chữ. 3) Tích hợp wsrv.nl WebP proxy cho ảnh backdrop và poster của tất cả các nguồn (YanHH3D, HoatHinh, Panda...), chống lỗi chặn anti-hotlink 403, loại bỏ hoàn toàn hiện tượng mất hình/màn đen trên billboard. 4) Giữ vững thanh dock dọc (TvNavRail) trên TV không bị biến mất. 5) Màn hình thông tin phim (Detail Screen): Kích hoạt giao diện Leanback TV hai cột (Two-pane) kèm đầy đủ vòng sáng Focus Ring chuẩn BrandGold (#E1C074), hiệu ứng phóng to thẻ (AnimatedScale 1.08x) và điều hướng remote D-pad. 6) Khắc phục lỗi phát truyền hình Tizi & Màn hình tối: Cấu hình androidAttachSurfaceAfterVideoParameters: true, giải mã phần cứng mediacodec-copy,auto-safe, đặt nền shutter PlayerView trong suốt, nhận diện toàn diện Android TV Box. 7) Tinh chỉnh hộp thoại đổi nguồn (Source Switch Dialog): Loại bỏ hoàn toàn lớp phủ vàng chói trên con nhộng/thẻ nguồn, thay thế bằng giao diện đá Obsidian cao cấp (#161820 / #1E2028), viền vàng tinh tế khi được chọn. 8) Đồng bộ đám mây (Cloud Sync): Xử lý an toàn khi relay server trả về lỗi mạng, bảo toàn dữ liệu đồng bộ local hai chiều vào SQLite và SharedPreferences.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-release.apk",
-  "sha256": "d6b2b721a4887a3236b569f6202daff02e65df0c9dbc938ae8040e3736698374",
+  "versionCode": 2057,
+  "versionName": "0.0.57",
+  "buildTimestamp": "2026-11-06T03:05:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.57 (Độ sáng 50% mặc định, Khắc phục văng app lần đầu mở & Hoàn tất phát hành OTA): 1) Độ sáng Video Player: Đặt mặc định 50% khi mở trình xem phim, khôi phục lại độ sáng hệ thống ban đầu khi thoát, loại bỏ lớp phủ đen đè kép trên Android. 2) Khắc phục lỗi văng app khi xem phim đầu tiên sau khi mở app: Bật android:largeHeap='true', hạ bộ đệm ExoPlayer và image cache xuống mức 32MB-64MB an toàn chống tràn RAM trên Android TV, xóa bỏ singleTask gây hủy Activity sớm, xử lý đóng Dialog an toàn không pop nhầm màn hình cha. 3) Phát hành đầy đủ 4 gói APK lên GitHub Releases v0.0.57 (Universal, ARM64, ARMv7, TV) giải quyết triệt để lỗi 404 Không tìm thấy file apk khi cập nhật OTA. 4) Đồng bộ giao diện TV Leanback chuẩn RapNha: Hero banner Stack tràn viền cho tất cả các nguồn (NguonC, YanHH3D, HoatHinh, Panda...), tích hợp wsrv.nl WebP proxy chống chặn 403, giữ nguyên thanh dock dọc (TvNavRail) trên TV, và hỗ trợ phát mượt mà nguồn truyền hình Tizi.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-release.apk",
+  "sha256": "69a6c2b2480e2c623d446f7fb6a208ff116caae09da74f3d667200a04fcba311",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "a88eaefd238da5526069d2fe55f3f557bcda19af7a6b45fca966c46d152cfba0",
-  "sha256_arm64": "fe0e596b0de67f88f98252dcd2a89cc5231aece3806c16420fa54b68e83989e0"
+  "sha256_armeabi_v7a": "abd1f383beaf4905e3efbde9664b8d85e6f64cc3e6fb99e74e5ec85b98cc91c7",
+  "sha256_arm64": "87d2c22741983f0518ab36cf09a8c2b53b14e1d5d077064fb8fcbe989b02c813"
 }
