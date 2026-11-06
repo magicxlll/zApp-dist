@@ -1,16 +1,16 @@
 {
-  "versionCode": 2055,
-  "versionName": "0.0.55",
-  "buildTimestamp": "2026-11-05T19:46:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.55 (Khắc phục toàn diện 6 lỗi kiểm thử trên thiết bị): 1) Khắc phục lỗi SocketException errno 103 và Cloudflare TLS abort trên hh3d.com bằng cơ chế tự động chuyển hướng proxy Cloudflare Worker có bảo toàn Header & Referer. 2) Sửa lỗi lấy stream HandshakeException trên Thái Cổ Thần Tôn / HoatHinh3D qua bộ phân giải dự phòng Halim Resolver giải mã luồng video trực tiếp <500ms. 3) Khắc phục triệt để lỗi Net::ERR_BLOCKED_BY_ORB trên scontent.ibytedance.net bằng cách nhận diện chính xác luồng trực tiếp dạng /stream? và ibytedance.net để phát qua Native ExoPlayer. 4) Khắc phục lỗi Cloudflare 403 trên embed14.streamc.xyz: Tự động tiêm Referer phim.nguonc.com vào WebView scraper. 5) Khắc phục lỗi Đăng nhập đồng bộ đám mây (Cloud Sync HTTP 404): Chuyển endpoint sang bucket kvdb ổn định và xử lý lỗi ngầm an toàn. 6) Đồng bộ hóa repo.json lên phiên bản mới nhất v1.5.0 tương đồng 100% với zFim01.json trên cả zfim-default-sources và zApp-dist. 7) Sửa lỗi tràn giao diện 'RIGHT OVERFLOWED BY 68 PIXELS' trên nút 'Xem ngay' ở màn hình chi tiết phim.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-release.apk",
-  "sha256": "6bb97fba8dd7fefa1285d0557722db4cf3da21184fbe3fcaf42738a624368730",
+  "versionCode": 2056,
+  "versionName": "0.0.56",
+  "buildTimestamp": "2026-11-06T02:20:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.56 (Đại tu giao diện TV Leanback chuẩn RapNha & Sửa triệt để các lỗi TV): 1) Đồng bộ giao diện TV toàn diện cho TẤT CẢ các nguồn: Hero banner toàn màn hình dạng Stack tràn viền với hiệu ứng chuyển màu (melt gradient) kéo dài xuống chân của kệ phim đầu tiên (dưới chân list là tối nhất, chuyển dần lên trên rõ dần theo đúng chuẩn RapNha). 2) Kệ phim hiển thị 100% đầy đủ tên phim dưới poster, không bị che khuất hay cắt chữ. 3) Tích hợp wsrv.nl WebP proxy cho ảnh backdrop và poster của tất cả các nguồn (YanHH3D, HoatHinh, Panda...), chống lỗi chặn anti-hotlink 403, loại bỏ hoàn toàn hiện tượng mất hình/màn đen trên billboard. 4) Giữ vững thanh dock dọc (TvNavRail) trên TV không bị biến mất. 5) Màn hình thông tin phim (Detail Screen): Kích hoạt giao diện Leanback TV hai cột (Two-pane) kèm đầy đủ vòng sáng Focus Ring chuẩn BrandGold (#E1C074), hiệu ứng phóng to thẻ (AnimatedScale 1.08x) và điều hướng remote D-pad. 6) Khắc phục lỗi phát truyền hình Tizi & Màn hình tối: Cấu hình androidAttachSurfaceAfterVideoParameters: true, giải mã phần cứng mediacodec-copy,auto-safe, đặt nền shutter PlayerView trong suốt, nhận diện toàn diện Android TV Box. 7) Tinh chỉnh hộp thoại đổi nguồn (Source Switch Dialog): Loại bỏ hoàn toàn lớp phủ vàng chói trên con nhộng/thẻ nguồn, thay thế bằng giao diện đá Obsidian cao cấp (#161820 / #1E2028), viền vàng tinh tế khi được chọn. 8) Đồng bộ đám mây (Cloud Sync): Xử lý an toàn khi relay server trả về lỗi mạng, bảo toàn dữ liệu đồng bộ local hai chiều vào SQLite và SharedPreferences.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-release.apk",
+  "sha256": "29910ad0f39fde9118ca7a833e7b0fc83897ad7b6760d573a9e8ff9f2848b41b",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.55/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "b6730bdce055cca9e9b1ee826323495cdf5065e5a58a3b2ded150a7c65eef2b6",
-  "sha256_arm64": "09929330db2a75c1c76f36a367e8144844f61faede0389913af6598101678b68"
+  "sha256_armeabi_v7a": "a88eaefd238da5526069d2fe55f3f557bcda19af7a6b45fca966c46d152cfba0",
+  "sha256_arm64": "fe0e596b0de67f88f98252dcd2a89cc5231aece3806c16420fa54b68e83989e0"
 }
