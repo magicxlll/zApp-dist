@@ -1,16 +1,16 @@
 {
-  "versionCode": 2057,
-  "versionName": "0.0.57",
-  "buildTimestamp": "2026-11-06T03:05:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.57 (Độ sáng 50% mặc định, Khắc phục văng app lần đầu mở & Hoàn tất phát hành OTA): 1) Độ sáng Video Player: Đặt mặc định 50% khi mở trình xem phim, khôi phục lại độ sáng hệ thống ban đầu khi thoát, loại bỏ lớp phủ đen đè kép trên Android. 2) Khắc phục lỗi văng app khi xem phim đầu tiên sau khi mở app: Bật android:largeHeap='true', hạ bộ đệm ExoPlayer và image cache xuống mức 32MB-64MB an toàn chống tràn RAM trên Android TV, xóa bỏ singleTask gây hủy Activity sớm, xử lý đóng Dialog an toàn không pop nhầm màn hình cha. 3) Phát hành đầy đủ 4 gói APK lên GitHub Releases v0.0.57 (Universal, ARM64, ARMv7, TV) giải quyết triệt để lỗi 404 Không tìm thấy file apk khi cập nhật OTA. 4) Đồng bộ giao diện TV Leanback chuẩn RapNha: Hero banner Stack tràn viền cho tất cả các nguồn (NguonC, YanHH3D, HoatHinh, Panda...), tích hợp wsrv.nl WebP proxy chống chặn 403, giữ nguyên thanh dock dọc (TvNavRail) trên TV, và hỗ trợ phát mượt mà nguồn truyền hình Tizi.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-release.apk",
-  "sha256": "69a6c2b2480e2c623d446f7fb6a208ff116caae09da74f3d667200a04fcba311",
+  "versionCode": 2058,
+  "versionName": "0.0.58",
+  "buildTimestamp": "2026-11-06T04:20:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.58 (Tinh chỉnh UI/UX TV Leanback chuẩn RapNha, Fix lỗi phát nguồn & Sắc nét giao diện mọi nguồn): 1) Khắc phục lỗi list phim đè lên hero-banner: Thu nhỏ kích thước poster phim (104x156dp), thu gọn độ cao hàng phim (204dp), bố trí thông tin hero-banner gọn gàng lên cao không bị đè vào kệ phim bên dưới. 2) Trang thông tin phim (DetailScreen TV Layout): Hạ độ cao billboard từ 400dp xuống 285dp, giảm mờ tối gradient để hình ảnh poster nền sáng rõ, thu nhỏ các nút tập phim dạng viên thuốc (compact pills) hiển thị được nhiều tập hơn, hỗ trợ điều hướng D-pad mượt mà xuống kệ 'Có thể bạn cũng thích' và ngược lại. 3) Khắc phục lỗi Player: Sửa lỗi nhận diện HLS trong NativePlayerActivity (ExoPlayer) cho các nguồn stream token (streamc.xyz...), thêm cơ chế tự động thử lại khi lỗi định dạng và bổ sung User-Agent trình duyệt tiêu chuẩn. 4) Loại bỏ lớp mờ che hero-banner và dock dọc: Xóa bỏ hoàn toàn BackdropFilter tràn viền trên các nguồn YanHH3D, HoatHinh, Panda... giúp giao diện đồng bộ sắc nét 100% như NguonC. 5) Phát hành đầy đủ 4 gói APK (Universal, ARM64, ARMv7, TV) trên OTA.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-release.apk",
+  "sha256": "43ef4f292a86e18f319fdbda0778fbd7e3bdd9c7a6170b9b1d5b4c40dfbaede3",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.57/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.58/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "abd1f383beaf4905e3efbde9664b8d85e6f64cc3e6fb99e74e5ec85b98cc91c7",
-  "sha256_arm64": "87d2c22741983f0518ab36cf09a8c2b53b14e1d5d077064fb8fcbe989b02c813"
+  "sha256_armeabi_v7a": "b10c961d293cd01fcf110240a5bdd9d3bba42f3a909765be95b32b4d5ed175b5",
+  "sha256_arm64": "2bb1654ab86e4648d6c7c38b850c676b5e9b9fe882977f5760169f417f603b26"
 }
