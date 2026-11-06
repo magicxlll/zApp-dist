@@ -1,10 +1,10 @@
 {
   "versionCode": 2056,
   "versionName": "0.0.56",
-  "buildTimestamp": "2026-11-06T02:20:00Z",
+  "buildTimestamp": "2026-11-06T02:25:00Z",
   "releaseNotes": "Bản cập nhật v0.0.56 (Đại tu giao diện TV Leanback chuẩn RapNha & Sửa triệt để các lỗi TV): 1) Đồng bộ giao diện TV toàn diện cho TẤT CẢ các nguồn: Hero banner toàn màn hình dạng Stack tràn viền với hiệu ứng chuyển màu (melt gradient) kéo dài xuống chân của kệ phim đầu tiên (dưới chân list là tối nhất, chuyển dần lên trên rõ dần theo đúng chuẩn RapNha). 2) Kệ phim hiển thị 100% đầy đủ tên phim dưới poster, không bị che khuất hay cắt chữ. 3) Tích hợp wsrv.nl WebP proxy cho ảnh backdrop và poster của tất cả các nguồn (YanHH3D, HoatHinh, Panda...), chống lỗi chặn anti-hotlink 403, loại bỏ hoàn toàn hiện tượng mất hình/màn đen trên billboard. 4) Giữ vững thanh dock dọc (TvNavRail) trên TV không bị biến mất. 5) Màn hình thông tin phim (Detail Screen): Kích hoạt giao diện Leanback TV hai cột (Two-pane) kèm đầy đủ vòng sáng Focus Ring chuẩn BrandGold (#E1C074), hiệu ứng phóng to thẻ (AnimatedScale 1.08x) và điều hướng remote D-pad. 6) Khắc phục lỗi phát truyền hình Tizi & Màn hình tối: Cấu hình androidAttachSurfaceAfterVideoParameters: true, giải mã phần cứng mediacodec-copy,auto-safe, đặt nền shutter PlayerView trong suốt, nhận diện toàn diện Android TV Box. 7) Tinh chỉnh hộp thoại đổi nguồn (Source Switch Dialog): Loại bỏ hoàn toàn lớp phủ vàng chói trên con nhộng/thẻ nguồn, thay thế bằng giao diện đá Obsidian cao cấp (#161820 / #1E2028), viền vàng tinh tế khi được chọn. 8) Đồng bộ đám mây (Cloud Sync): Xử lý an toàn khi relay server trả về lỗi mạng, bảo toàn dữ liệu đồng bộ local hai chiều vào SQLite và SharedPreferences.",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-release.apk",
-  "sha256": "29910ad0f39fde9118ca7a833e7b0fc83897ad7b6760d573a9e8ff9f2848b41b",
+  "sha256": "d6b2b721a4887a3236b569f6202daff02e65df0c9dbc938ae8040e3736698374",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-release.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.56/app-armeabi-v7a-release.apk",
