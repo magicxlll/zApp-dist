@@ -1,16 +1,16 @@
 {
-  "versionCode": 2063,
-  "versionName": "0.0.63",
-  "buildTimestamp": "2026-11-06T16:33:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.63 (Sửa lỗi hiển thị & Nâng cấp toàn diện trải nghiệm TV): 1) Home: Đưa cụm thông tin phim billboard lên trên vị trí kệ phim 'Mới Cập Nhật', giải quyết triệt để lỗi bị đẩy sát đáy màn hình. 2) Lưới phim phân loại (Category Grid): Bổ sung hiệu ứng D-Pad TV remote chuẩn xác gồm viền sáng Brand Gold, hiệu ứng phóng to thẻ phim AnimatedScale và hỗ trợ nút Back D-pad. 3) Trang chi tiết phim: Loại bỏ vòng viền thừa/halo trên nút chọn Thuyết minh | Vietsub, đồng bộ giao diện pill cao cấp. 4) Trình xem phim: Tăng độ sáng và độ nét của poster chờ tải phim (giảm hiệu ứng tối mờ), khắc phục triệt để lỗi màn hình đen trên Android TV bằng bộ giải mã MediaCodec-copy và gắn Surface sau thông số video, bổ sung nút chuyển nhanh sang Native ExoPlayer.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.63/app-release.apk",
-  "sha256": "15f2c916b96fe18d48e710fa7b272d8b75e677f826a8f159fa90a0b73534c816",
+  "versionCode": 2064,
+  "versionName": "0.0.64",
+  "buildTimestamp": "2026-11-06T17:33:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.64 (Khắc phục văng Player, Tinh chỉnh Waiting Poster & Đồng bộ QR CloudSync): 1) Player: Khắc phục triệt để lỗi crash văng app (SIGSEGV) khi vào màn hình chờ phát phim trên cả TV và mobile bằng cách loại bỏ lệnh set vo/gpu-context trực tiếp vi phạm luồng Surface của libmpv. 2) Poster chờ tải phim: Bổ sung hiệu ứng đen mờ 4 góc (Theatrical Radial Vignette) chuẩn điện ảnh, loại bỏ thông báo chữ và vòng xoay spinner. 3) Home: Cố định vị trí logo tên phim bên trái (Alignment.centerLeft) không bị giật nhảy, căn chỉnh thông tin phim nằm gọn phía trên kệ 'Mới Cập Nhật'. 4) Chi tiết phim xoay ngang trên điện thoại: Tự động chuyển layout 2 cột cinematic chuẩn TV (poster mờ chân điện ảnh, poster sắc nét từ TMDb), nút 'Xem ngay' dạng pill thon gọn cao cấp (height 40, bo góc 22dp) và phát đúng tập đang xem gần nhất. 5) Ghép nối QR & Đồng bộ đa thiết bị: Sử dụng Cloud Relay ntfy.sh tốc độ cao; tự động chuẩn hóa mã ghép nối 6-8 ký tự; truyền trực tiếp lịch sử xem phim và phim yêu thích ngay trong gói bắt tay QR handshake và đồng bộ hai chiều mượt mà giữa TV và điện thoại.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-release.apk",
+  "sha256": "7ac4d79a48b3ef56714d5db9fe61462a44207c7017d2f543d256a220e063b62d",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.63/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.63/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.63/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.63/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.64/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "8c2762c6bf12a9516607c797d19b476f3e17c672cddaeefc82f31f7b984bab07",
-  "sha256_arm64": "ba82a135915ddaa6a8fe5596147fc3a7fc5dd73299e1d439aa9e015c0caf0ff8"
+  "sha256_armeabi_v7a": "d44281c5bd5d895abec5bf7b000c08f6846b345a33eee27259aaea200f97cea9",
+  "sha256_arm64": "cc37a2f1b581a9b8534b0cae905060024cffd660b82bdefad4f537e60c1f1257"
 }
