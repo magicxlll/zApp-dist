@@ -1,19 +1,19 @@
 {
-  "versionCode": 2070,
-  "versionName": "0.0.70",
-  "buildTimestamp": "2026-11-07T08:18:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.70 (Khôi phục viền vàng chọn phim Trang chủ, Điều hướng Dock độc lập & Bản build cho Android TV Emulator x86_64): 1) Trang chủ TV: Khôi phục triệt để hiệu ứng viền vàng rực rỡ và phóng to mượt mà cho mọi poster phim từ trái sang phải, không bị nuốt viền chọn. 2) Điều hướng Dock dọc: Khi di chuyển Lên/Xuống trên Dock qua tab Tizi tuyệt đối không bị cướp con trỏ vào kênh, di chuyển mượt mà giữa các icon; bấm Phải từ Icon Kệ phim nhảy ngay vào chọn phim của kệ đầu tiên; bấm Back ở bất kỳ màn hình nào lập tức nhảy ra đúng icon của tab đó trên Dock dọc. 3) Hỗ trợ Android TV Emulator: Cung cấp đầy đủ bản build tương thích kiến trúc x86_64 cho máy ảo Android Studio (app-x86_64-release.apk và app-tv-emulator-release.apk) cùng bản Universal Fat (app-release.apk).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-release.apk",
-  "sha256": "8ddedebcf09fc2846f30f6e82707902ca08bf8bc2e29a33887b7c97086d37b73",
+  "versionCode": 2071,
+  "versionName": "0.0.71",
+  "buildTimestamp": "2026-11-07T08:58:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.71 (Tối ưu D-pad Kệ Fim, Chuẩn hóa phím Back thoát app, Đồng bộ Font số Top 10 & Hỗ trợ tối ưu Smart TV Xiaomi 55inch E55A 4K HDR Android TV 6.0): 1) Điều hướng D-pad Kệ Fim: Khắc phục triệt để lỗi từ Dock Kệ Fim bấm Phải không vào chọn phim sau khi chuyển tab hoặc đổi nguồn; dùng GlobalKey trực tiếp trỏ đến phim đầu tiên ổn định 100%. 2) Chuẩn hóa phím Back: Loại bỏ xung đột phím, khi con trỏ ở Dock dọc bấm Back 1 lần sẽ tự động quay về tab Kệ Fim, bấm Back lần thứ 2 sẽ thoát app một cách dứt khoát. 3) Top 10 Bảng Xếp Hạng: Đồng bộ 1:1 trọn bộ số Top 10 (#1 - #10) sắc nét, nét viền vàng 3.2 chuẩn Netflix và lớp bóng obsidian sang trọng từ mobile sang TV, khắc phục hoàn toàn nét méo của số 4, số 6. 4) Hỗ trợ Smart TV Xiaomi 55inch E55A 4K HDR: Tương thích hoàn hảo Android TV 6.0 (Marshmallow, API 23), hỗ trợ chip Amlogic T962 (Mali-450) với đầy đủ bản build 32-bit armeabi-v7a và bản Universal Fat mượt mà.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-release.apk",
+  "sha256": "d6d9dc25dae3cf53bcb61923da751cd443fcbd40d50d76eb1a28af5b625a6672",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-tv-release.apk",
-    "x86_64": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-x86_64-release.apk",
-    "tv-emulator": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-tv-emulator-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-tv-release.apk",
+    "x86_64": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-x86_64-release.apk",
+    "tv-emulator": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.71/app-tv-emulator-release.apk"
   },
-  "sha256_armeabi_v7a": "a2951924fa37be99a38405b39626bd89838d5bf4b5d7f00c1968b0a52e3758f1",
-  "sha256_arm64": "5e47cfe8b4cc8a723eaea3f4c913634d8f76342f06479b5bc0f1bbf006784148",
-  "sha256_x86_64": "33d280dc277006c0b114cf02b0e181409cd41d23a8a7d376e6a9f5fd8d67ee00"
+  "sha256_armeabi_v7a": "8a35666025123755f6de4ec8bc6400984ae9c041d037df94ad94cd51f164a8a9",
+  "sha256_arm64": "6ca917a609769365a282fbc3d70c6d01c5cd203b606a689cf47bb0209cc7da46",
+  "sha256_x86_64": "fe04ee9828109a910934c6dac744d801f995dcced123078b6647577441db31a5"
 }
