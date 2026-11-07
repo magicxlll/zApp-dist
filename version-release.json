@@ -1,16 +1,16 @@
 {
-  "versionCode": 2066,
-  "versionName": "0.0.66",
-  "buildTimestamp": "2026-11-06T18:28:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.66 (Cố định vị trí Logo & Thông tin Trang chủ TV, Hiệu ứng đen mờ 4 góc dịu mắt & Giải pháp màn hình đen Player): 1) Trang chủ TV (Home Screen): Khôi phục vị trí logo và thông tin phim về vị trí chuẩn góc trái (left: 88, top: 18), neo cứng AnimatedSwitcher vào topLeft (layoutBuilder: Stack(alignment: Alignment.topLeft)), loại bỏ FittedBox gây giật nhảy, đảm bảo logo và thông tin cố định cứng 100% bên trái từ frame đầu tiên. 2) Poster chờ tải phim: Tinh chỉnh hiệu ứng tối 4 góc dịu dàng chuẩn điện ảnh (RadialGradient radius 1.10, stops 0.40, 0.75, 1.0) giúp trải nghiệm xem phim trong môi trường phòng tối cực kỳ êm mắt, không chói lóa. 3) Trình xem phim: Giải thích và xử lý triệt để nguyên nhân màn hình đen (gắn kết SurfaceTexture lập tức, loại bỏ cờ hoãn attachSurface, dùng hwdec: auto-safe chống tràn bộ nhớ GPU trên Android TV).",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-release.apk",
-  "sha256": "2b2eb21eecb2c60faddf22967331275afd0256c545517cc996598b36a48a3325",
+  "versionCode": 2067,
+  "versionName": "0.0.67",
+  "buildTimestamp": "2026-11-07T02:45:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.67 (Khôi phục chuẩn vị trí V63 Hero-Banner TV, Nút bấm Icon-only, Tự phục hồi nguồn Tizi & Trình phát NativePlayer Android TV): 1) Trang chủ TV (Home Screen): Khôi phục chính xác vị trí cụm Logo và thông tin phim về góc trái billboard phía trên nhãn kệ phim (top: 14, left: 92, alignment: Alignment.bottomLeft) chuẩn phiên bản V63 không bị đè lên chữ Xem tiếp; cố định cứng logo không còn nhảy giật vị trí khi đổi poster; chuyển đổi toàn bộ nút bấm Play, Yêu thích, Chi tiết sang nút biểu tượng (Icon-only) chuẩn công thái học Android TV. 2) Nguồn Tizi: Tự động phục hồi (Self-Healing) cài đặt các nguồn Việt Nga TV và Thể Thao Trực Tiếp từ bundle zFim01.json khi thiếu, đảm bảo nguồn TV luôn luôn có sẵn. 3) Trình phát Android TV: Tự động chuyển sang NativePlayerActivity (ExoPlayer/SurfaceView zero-copy) mượt mà 100% không đen hình; bổ sung màn hình chờ poster phim chuẩn điện ảnh với hiệu ứng đen mờ 4 góc dịu mắt và logo phát sáng ở giữa, bỏ vòng xoay chờ. 4) Sửa lỗi văng app (crash/out): Đưa FutureBuilder logo ra ngoài vòng lặp 60fps tránh spam kết nối SQLite/HTTP làm khóa database và giải phóng bộ đệm demuxer an toàn.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-release.apk",
+  "sha256": "55a6dc4c0525092980f5c90aa929df97a2c966db7cb909e086e85298ba4b80a2",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.66/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "a87bdac6347e9af005f825ce0c8c4be1f5849bc51722f8568d90dcfb2d1ad623",
-  "sha256_arm64": "b621fc608dea1e56b9e03b76cd23dbe5edc7872d003f18347d8c3b93b7a3b13c"
+  "sha256_armeabi_v7a": "6596d67cfd44a5a7b6350514bcccdc97448191e816ed230702cf38c3abc15282",
+  "sha256_arm64": "852300e1381dd71948f91abff918721160492fa83ceec75beb2ce303a0d3897c"
 }
