@@ -1,16 +1,19 @@
 {
-  "versionCode": 2069,
-  "versionName": "0.0.69",
-  "buildTimestamp": "2026-11-07T07:45:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.69 (Hỗ trợ Android TV 6.0/minSdk 23, Giới hạn cuộn viền chọn phim Trang chủ, Điều hướng Dock độc lập & Tinh chỉnh Player điện ảnh): 1) Hỗ trợ TV cũ (Android TV 6.0): Hạ minSdkVersion xuống 23 giúp cài đặt hoàn hảo trên các dòng Android TV 6.0 (như Xiaomi MiBox 3, Sony Bravia cũ). 2) Trang chủ TV: Viền chọn phim chỉ di chuyển trong phạm vi thấy được của màn hình (từ dock dọc đến cách mép phải 1 poster phim dự phòng), tự động cuộn mượt mà và không bao giờ chọn biến mất khỏi màn hình TV. 3) Cơ chế điều hướng con trỏ & Dock: Nút Back ở bất kỳ màn hình nào lập tức nhảy ra icon của tab tương ứng trên dock dọc; con trỏ trên dock bấm Lên/Xuống chỉ di chuyển trong dock không nhảy ngang, bấm Phải nhảy vào phần tử đầu tiên của tab; sau khi đổi nguồn phim tự động chuyển về Trang chủ kệ phim. 4) Trang chi tiết: Nút Play chỉ hiển thị số tập sắp chiếu, nút 'Xem từ đầu' và 'Phát ngoài' tinh gọn dạng icon. 5) Trình xem phim: Màn hình chờ giảm nhẹ viền đen 4 góc và ẩn toàn bộ nút điều khiển; khi phim bắt đầu play thì poster nhẹ nhàng chìm sâu vào trong và hiển thị nút điều khiển 3s rồi tự ẩn; viền chọn các nút chuyển sang hiệu ứng sáng nhẹ dịu mắt.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-release.apk",
-  "sha256": "9cd88be8dafd5278dd3c8c3997b17b107332b17fb8e97ab1930eea6eeecc1407",
+  "versionCode": 2070,
+  "versionName": "0.0.70",
+  "buildTimestamp": "2026-11-07T08:18:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.70 (Khôi phục viền vàng chọn phim Trang chủ, Điều hướng Dock độc lập & Bản build cho Android TV Emulator x86_64): 1) Trang chủ TV: Khôi phục triệt để hiệu ứng viền vàng rực rỡ và phóng to mượt mà cho mọi poster phim từ trái sang phải, không bị nuốt viền chọn. 2) Điều hướng Dock dọc: Khi di chuyển Lên/Xuống trên Dock qua tab Tizi tuyệt đối không bị cướp con trỏ vào kênh, di chuyển mượt mà giữa các icon; bấm Phải từ Icon Kệ phim nhảy ngay vào chọn phim của kệ đầu tiên; bấm Back ở bất kỳ màn hình nào lập tức nhảy ra đúng icon của tab đó trên Dock dọc. 3) Hỗ trợ Android TV Emulator: Cung cấp đầy đủ bản build tương thích kiến trúc x86_64 cho máy ảo Android Studio (app-x86_64-release.apk và app-tv-emulator-release.apk) cùng bản Universal Fat (app-release.apk).",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-release.apk",
+  "sha256": "8ddedebcf09fc2846f30f6e82707902ca08bf8bc2e29a33887b7c97086d37b73",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-tv-release.apk",
+    "x86_64": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-x86_64-release.apk",
+    "tv-emulator": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.70/app-tv-emulator-release.apk"
   },
-  "sha256_armeabi_v7a": "42aa76461fafea7dd8ac7d4352c9b02db639cd6c3b5f09195d43fa730658d4df",
-  "sha256_arm64": "ff89c44e3422f4aabf37cc826f3efd719a22e36cd0ad6da646a6bb4b1c4d8af3"
+  "sha256_armeabi_v7a": "a2951924fa37be99a38405b39626bd89838d5bf4b5d7f00c1968b0a52e3758f1",
+  "sha256_arm64": "5e47cfe8b4cc8a723eaea3f4c913634d8f76342f06479b5bc0f1bbf006784148",
+  "sha256_x86_64": "33d280dc277006c0b114cf02b0e181409cd41d23a8a7d376e6a9f5fd8d67ee00"
 }
