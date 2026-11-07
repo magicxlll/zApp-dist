@@ -1,16 +1,16 @@
 {
   "versionCode": 2069,
   "versionName": "0.0.69",
-  "buildTimestamp": "2026-11-07T07:33:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.69 (Hỗ trợ Android TV 6.0/minSdk 21, Giới hạn cuộn viền chọn phim Trang chủ, Điều hướng Dock độc lập & Tinh chỉnh Player điện ảnh): 1) Hỗ trợ TV cũ (Android 5.0/6.0): Hạ minSdkVersion xuống 21 giúp cài đặt hoàn hảo trên các dòng Android TV 6.0 (như Xiaomi MiBox 3, Sony Bravia cũ). 2) Trang chủ TV: Viền chọn phim chỉ di chuyển trong phạm vi thấy được của màn hình (từ dock dọc đến cách mép phải 1 poster phim dự phòng), tự động cuộn mượt mà và không bao giờ chọn biến mất khỏi màn hình TV. 3) Cơ chế điều hướng con trỏ & Dock: Nút Back ở bất kỳ màn hình nào lập tức nhảy ra icon của tab tương ứng trên dock dọc; con trỏ trên dock bấm Lên/Xuống chỉ di chuyển trong dock không nhảy ngang, bấm Phải nhảy vào phần tử đầu tiên của tab; sau khi đổi nguồn phim tự động chuyển về Trang chủ kệ phim. 4) Trang chi tiết: Nút Play chỉ hiển thị số tập sắp chiếu, nút 'Xem từ đầu' và 'Phát ngoài' tinh gọn dạng icon. 5) Trình xem phim: Màn hình chờ giảm nhẹ viền đen 4 góc và ẩn toàn bộ nút điều khiển; khi phim bắt đầu play thì poster nhẹ nhàng chìm sâu vào trong và hiển thị nút điều khiển 3s rồi tự ẩn; viền chọn các nút chuyển sang hiệu ứng sáng nhẹ dịu mắt.",
+  "buildTimestamp": "2026-11-07T07:45:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.69 (Hỗ trợ Android TV 6.0/minSdk 23, Giới hạn cuộn viền chọn phim Trang chủ, Điều hướng Dock độc lập & Tinh chỉnh Player điện ảnh): 1) Hỗ trợ TV cũ (Android TV 6.0): Hạ minSdkVersion xuống 23 giúp cài đặt hoàn hảo trên các dòng Android TV 6.0 (như Xiaomi MiBox 3, Sony Bravia cũ). 2) Trang chủ TV: Viền chọn phim chỉ di chuyển trong phạm vi thấy được của màn hình (từ dock dọc đến cách mép phải 1 poster phim dự phòng), tự động cuộn mượt mà và không bao giờ chọn biến mất khỏi màn hình TV. 3) Cơ chế điều hướng con trỏ & Dock: Nút Back ở bất kỳ màn hình nào lập tức nhảy ra icon của tab tương ứng trên dock dọc; con trỏ trên dock bấm Lên/Xuống chỉ di chuyển trong dock không nhảy ngang, bấm Phải nhảy vào phần tử đầu tiên của tab; sau khi đổi nguồn phim tự động chuyển về Trang chủ kệ phim. 4) Trang chi tiết: Nút Play chỉ hiển thị số tập sắp chiếu, nút 'Xem từ đầu' và 'Phát ngoài' tinh gọn dạng icon. 5) Trình xem phim: Màn hình chờ giảm nhẹ viền đen 4 góc và ẩn toàn bộ nút điều khiển; khi phim bắt đầu play thì poster nhẹ nhàng chìm sâu vào trong và hiển thị nút điều khiển 3s rồi tự ẩn; viền chọn các nút chuyển sang hiệu ứng sáng nhẹ dịu mắt.",
   "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-release.apk",
-  "sha256": "ac75962b982f42cdedb060a4a9a7d5b30279a2cf9d5d4a17c6aaa539e88f58fa",
+  "sha256": "9cd88be8dafd5278dd3c8c3997b17b107332b17fb8e97ab1930eea6eeecc1407",
   "downloadUrls": {
     "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-release.apk",
     "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-armeabi-v7a-release.apk",
     "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-arm64-v8a-release.apk",
     "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.69/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "db53fa7367f9b4ade4482d809587a87ce0a0f2b986a4fe7315b2e8438c2ca4a5",
-  "sha256_arm64": "e869e16befe18cca23942799226802880db82d5aba1fa8cb8a765b8c6e21174a"
+  "sha256_armeabi_v7a": "42aa76461fafea7dd8ac7d4352c9b02db639cd6c3b5f09195d43fa730658d4df",
+  "sha256_arm64": "ff89c44e3422f4aabf37cc826f3efd719a22e36cd0ad6da646a6bb4b1c4d8af3"
 }
