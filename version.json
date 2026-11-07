@@ -1,16 +1,16 @@
 {
-  "versionCode": 2067,
-  "versionName": "0.0.67",
-  "buildTimestamp": "2026-11-07T02:45:00Z",
-  "releaseNotes": "Bản cập nhật v0.0.67 (Khôi phục chuẩn vị trí V63 Hero-Banner TV, Nút bấm Icon-only, Tự phục hồi nguồn Tizi & Trình phát NativePlayer Android TV): 1) Trang chủ TV (Home Screen): Khôi phục chính xác vị trí cụm Logo và thông tin phim về góc trái billboard phía trên nhãn kệ phim (top: 14, left: 92, alignment: Alignment.bottomLeft) chuẩn phiên bản V63 không bị đè lên chữ Xem tiếp; cố định cứng logo không còn nhảy giật vị trí khi đổi poster; chuyển đổi toàn bộ nút bấm Play, Yêu thích, Chi tiết sang nút biểu tượng (Icon-only) chuẩn công thái học Android TV. 2) Nguồn Tizi: Tự động phục hồi (Self-Healing) cài đặt các nguồn Việt Nga TV và Thể Thao Trực Tiếp từ bundle zFim01.json khi thiếu, đảm bảo nguồn TV luôn luôn có sẵn. 3) Trình phát Android TV: Tự động chuyển sang NativePlayerActivity (ExoPlayer/SurfaceView zero-copy) mượt mà 100% không đen hình; bổ sung màn hình chờ poster phim chuẩn điện ảnh với hiệu ứng đen mờ 4 góc dịu mắt và logo phát sáng ở giữa, bỏ vòng xoay chờ. 4) Sửa lỗi văng app (crash/out): Đưa FutureBuilder logo ra ngoài vòng lặp 60fps tránh spam kết nối SQLite/HTTP làm khóa database và giải phóng bộ đệm demuxer an toàn.",
-  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-release.apk",
-  "sha256": "55a6dc4c0525092980f5c90aa929df97a2c966db7cb909e086e85298ba4b80a2",
+  "versionCode": 2068,
+  "versionName": "0.0.68",
+  "buildTimestamp": "2026-11-07T03:55:00Z",
+  "releaseNotes": "Bản cập nhật v0.0.68 (Đồng bộ UI/UX Trình phát NativePlayer Mobile 1:1 trên Android TV, Nút Remote Back toàn năng ra Dock dọc, Khắc phục lỗi nhảy Logo Hero Banner): 1) Hero Banner Trang chủ TV: Khắc phục triệt để lỗi logo bị nhảy giật vị trí khi đổi poster (loại bỏ hiệu ứng crossfade trung tâm của OctoImage, bổ sung bộ nhớ đệm đồng bộ getCachedLogo và tiền tải trước khi hiển thị, cố định chuẩn góc trái billboard ngay từ khung hình đầu tiên). 2) Nút Remote Back toàn năng ra Dock: Thiết lập bộ điều hướng Universal Back trên TV - bấm phím Back ở bất kỳ vị trí/màn hình nào (kể cả xem kênh Tizi, duyệt phim) con trỏ remote sẽ lập tức nhảy ra đúng biểu tượng của Tab đó trên thanh Dock dọc. 3) Trình phát NativePlayer Android TV giao diện Mobile UI/UX: Giữ nguyên kiến trúc giải mã phần cứng ExoPlayer/SurfaceView zero-copy siêu mượt không đen hình, tái cấu trúc toàn diện bố cục và giao diện điều khiển 1:1 theo phiên bản Mobile: Top Bar (Phân loại TV-MA, thông báo 18+ tự mờ sau 4s, nút PIP), Cụm 3 nút tròn điều khiển tua lùi 10s / Play-Pause 68dp / tua tới 10s, Thanh tua Seekbar vàng đặt trên hàng 5 nút chức năng (Tỷ lệ: Vừa, Xoay, Nguồn, Tập sau, Danh sách tập). 4) Tối ưu D-pad remote: Tự động bắt tiêu điểm vào thẻ phim đầu tiên khi chuyển từ Dock sang kệ phim.",
+  "downloadUrl": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.68/app-release.apk",
+  "sha256": "5c38d9d82a30b7b14885a854dbdd50c7bb12a3c4a623fcb268def4addd64d50a",
   "downloadUrls": {
-    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-release.apk",
-    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-armeabi-v7a-release.apk",
-    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-arm64-v8a-release.apk",
-    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.67/app-tv-release.apk"
+    "universal": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.68/app-release.apk",
+    "armeabi-v7a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.68/app-armeabi-v7a-release.apk",
+    "arm64-v8a": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.68/app-arm64-v8a-release.apk",
+    "tv": "https://github.com/magicxlll/zApp-dist/releases/download/v0.0.68/app-tv-release.apk"
   },
-  "sha256_armeabi_v7a": "6596d67cfd44a5a7b6350514bcccdc97448191e816ed230702cf38c3abc15282",
-  "sha256_arm64": "852300e1381dd71948f91abff918721160492fa83ceec75beb2ce303a0d3897c"
+  "sha256_armeabi_v7a": "6009912a79274ac32be76efdc590b24ed88eeff190914bc0f013580e5aee1596",
+  "sha256_arm64": "1f1d3ed63506c4c1f69e84da0a490d48771274e4f2ab61a82434eb16389cdbe2"
 }
